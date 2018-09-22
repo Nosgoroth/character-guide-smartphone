@@ -1,0 +1,1318 @@
+---
+
+
+# An array of characters. Each character takes the following form:
+#
+#  - name: Foo @5: Bar
+#    book: 5
+#    tags: lorem, ipsum@5, dolor
+#    blurb: This. @5: And also that.
+#
+# Notes on each:
+#   Both "name" and "blurb" are versionable strings (see below).
+#   "tags" is a list of tags, comma-separated.
+#     In the example, haracter has the tags "lorem", "dolor" and,
+#     from volume 5 onwards, also "ipsum".
+#   "book" is a simple number defining the first book the character appears in. It can
+#     be ommited and it defaults to 1.
+#
+# Versionable string:
+#   "This. @5: And also that. @$9: This, that and the other thing."
+#     => It's "This." until volume 5, then it becomes "This. And also that."
+#     => After volume 9 it becomes "This, that and the other thing."
+#
+#   That is to say:
+#     => Use "A @5: B" to have "A" become "A B" after the given volume.
+#     => Use "A @$5: B" to have "A" become "B" after the given volume.
+
+
+
+
+# BOOK 1
+
+
+- name: Mochizuki Touya
+  tags: human, adventurer, brunhild@4, divinity@5
+  blurb: >
+    The main character. An easygoing guy that died and got reincarnated in another
+    world with his smartphone. Touya''s the first name, Mochizuki the last.
+    @4: Grand Duke of Brunhild.
+    @5: Kind of a demigod.
+    @6: Gold-rank adventurer.
+    @9: Briefly went by Shirogane.
+
+- name: 'God @$3: God of Worlds'
+  tags: divinity
+  blurb: Touya's affable divine benefactor. He enjoys tea and cookies.
+
+- name: Zanac
+  tags: human, reflet, belfast
+  blurb: >
+    Owner of Fashion King Zanac, a clothing shop in Reflet.
+    @5: Opened a branch store in Brunhild.
+
+- name: Micah
+  tags: human, reflet, belfast, brunhild@5
+  blurb: >
+    The nice lady at the counter at the Silver Moon inn.
+    @5: Manager of the Brunhild branch.
+
+- name: Elze Silhoueska
+  tags: human, adventurer, belfast, wives@3, brunhild@4
+  blurb: >
+    Linze's twin sister. An adventurer that excels at physical combat. Bold and outgoing.
+    @3: Engaged to Touya.
+
+- name: Linze Silhoueska
+  tags: human, adventurer, belfast, wives@3, brunhild@4
+  blurb: >
+    Elze's twin sister. An adventurer that excels at magical combat.
+    Shy and reserved.
+    @3: Engaged to Touya.
+
+- name: Barral
+  tags: beastman, reflet, belfast
+  blurb: Owner of the Eight Bears, a weapon shop at Reflet. A bear beastman.
+
+- name: Kokonoe Yae
+  tags: human, eashen, adventurer, wives@3, brunhild@4
+  blurb: >
+    A swordswoman from the Far East, she is. Refined and kind.
+    @3: Engaged to Touya.
+
+- name: Sushie Urnea Ortlinde
+  tags: human, belfast, alephis, royalty, wives@6
+  blurb: >
+    Sue. Daughter of Duke Alfred of Belfast. Precocious and energetic.
+    @6: Engaged to Touya.
+
+- name: Leim
+  tags: human, belfast, alephis
+  blurb: >
+    Butler of the Ortlinde household. Was saved by Touya after he received a
+    fatal wound while protecting Sue from attackers.
+
+- name: Alfred Urnes Ortlinde
+  tags: human, belfast, alephis, royalty
+  blurb: Sue's father, Duke of Belfast, younger brother of the King.
+
+- name: Ellen Ernea Ortlinde
+  tags: human, belfast, alephis, royalty
+  blurb: Sue's mother, Duchess of Belfast. Was blind until Touya did his thing.
+
+- name: Carlossa Galune Swordrick
+  tags: human, belfast, alephis
+  blurb: A viscount of Belfast. Old disciple of Yae's father. Yae went to Belfast
+    to ask for his for advice in matters of swordplay.
+
+- name: Kokonoe Jubei
+  tags: human, eashen
+  blurb: >
+    Yae''s father.
+    @3: A large, grizzled-looking man. The swordsmanship instructor of the Tokugawas.
+
+- name: Kokonoe Nanae
+  tags: human, eashen
+  blurb: Yae's mother.
+
+- name: Arma Strand
+  tags: beastman, mismede
+  blurb: Olga's little sister. A foxgirl.
+
+- name: Olga Strand
+  tags: beastman, mismede
+  blurb: >
+    Mismede''s ambassador to Belfast. Was briefly framed by Balsa for the attempted
+    murder of the King. Arma''s older sister. A foxgirl.
+    @2: Interested in Lyon.
+
+- name: Dolan
+  tags: human, reflet, belfast
+  blurb: Owner of the Silver Moon inn at Reflet. Micah's dad.
+
+- name: Aer
+  tags: human, reflet, belfast
+  blurb: Owner of the Parent Cafe at Reflet.
+
+- name: Simon
+  tags: human, reflet, belfast
+  blurb: Owner of the item shop at Reflet.
+
+- name: Balsa
+  tags: human, belfast, alephis
+  blurb: A Count of Belfast. He attempted to poison the king.
+
+- name: Leon Blitz
+  tags: human, belfast, alephis
+  blurb: >
+    A general of Belfast.
+    @2: Also a baron. They call him Fire Fist Leon
+
+- name: Yumina Ernea Belfast
+  tags: human, belfast, alephis, adventurer, royalty, mysticEyes, wives@3, brunhild@4
+  blurb: >
+    Princess Yumina of Belfast. Her eyes can discern the quality of a person.
+    Regal and dignified.
+    @3: Engaged to Touya.
+
+- name: Tristwin Ernes Belfast
+  tags: human, belfast, alephis, royalty
+  blurb: The king of Belfast and Yumina's father.
+
+- name: Yuel Ernea Belfast
+  tags: human, belfast, alephis, royalty
+  blurb: Queen of Belfast and Yumina's mother.
+
+- name: Raul
+  tags: human, belfast, alephis
+  blurb: Court doctor of Belfast.
+
+- name: Charlotte
+  tags: human, belfast, alephis
+  blurb: Court magician of Belfast. Hard worker but excitable.
+
+- name: Kohaku
+  tags: summonedBeast, heavenlyBeast
+  blurb: >
+    The White Monarch, a legendary magical white tiger. The Guardian of the West
+    and the Main Streets of the cities, the Ruler of all beasts. Summoned by Touya.
+
+
+# BOOK 2
+
+- name: Lim
+  book: 2
+  tags: human, reflet, belfast
+  blurb: A little girl lost in Reflet. Touya finds her parents with null magic.
+
+- name: Laim
+  book: 2
+  tags: human, alephis, belfast, brunhild@4
+  blurb: >
+    Leim's older brother.
+    Previously the butler of the king of Belfast, he now serves Touya
+
+- name: Lapis
+  book: 2
+  tags: human, alephis, belfast, brunhild@4
+  blurb: >
+    Maid in Touya's employ. Has a dignified air. A member of Espion.
+    @6: With Yumina's engagement formally announced, no longer with Espion.
+    Brunhild's head maid.
+
+- name: Cecile
+  book: 2
+  tags: human, alephis, belfast, brunhild@4
+  blurb: >
+    Maaaaaid in Touya's employ. Has a puffy personality and a sweet smile. A member of Espion.
+    @6: With Yumina's engagement formally announced, no longer with Espion.
+
+- name: Julio
+  book: 2
+  tags: human, alephis, belfast, brunhild@4
+  blurb: Touya's gardener. Crea's husband. Laid back.
+
+- name: Crea
+  book: 2
+  tags: human, alephis, belfast, brunhild@4
+  blurb: Touya's cook. Julio's wife. Just as laid back.
+
+- name: Thomas
+  book: 2
+  tags: human, alephis, belfast
+  blurb: Gatekeeper and security personnel for Touya's mansion.
+
+- name: Huck
+  book: 2
+  tags: human, alephis, belfast
+  blurb: Gatekeeper and security personnel for Touya's mansion.
+
+- name: Lain
+  book: 2
+  tags: beastman, mismede, brunhild@4
+  blurb: >
+    A Mismedian soldier and rabbit beastman. Has excellent hearing.
+    @4: A girl, actually. A knight of Brunhild.
+    @5: Knight Commander.
+
+- name: Garm
+  book: 2
+  tags: beastman, mismede
+  blurb: A Mismedian captain and wolf beastman.
+
+- name: Lyon Blitz
+  book: 2
+  tags: human, alephis, belfast
+  blurb: A Belfastian captain. The second son of General Leon. Likes Olga.
+
+- name: Jamukha Blau Mismede
+  book: 2
+  tags: beastman, mismede, royalty
+  blurb: The Beastking, a whimsical musclehead. A snow leopard beastman.
+
+- name: Glatz
+  book: 2
+  tags: beastman, mismede
+  blurb: >
+    As Royal Chancellor of Mismede, he tries to rein in the Beastking's whims.
+    A bird beastman.
+
+- name: Olba Strand
+  book: 2
+  tags: beastman, mismede
+  blurb: >
+    A merchant. Father of Olga and Arma. A fox beastman.
+    @5: Opened a branch of the Strand Company in Brunhild.
+
+- name: Paula
+  book: 2
+  tags: construct
+  blurb: A teddy bear that Leen infused with magical programming. Surprisingly expressive.
+
+- name: Leen
+  book: 2
+  tags: fairy, mismede, brunhild@4, wives@8
+  blurb: >
+    Clan Matriarch of all fairies. An accomplished magician.
+    Is at least six centuries old despite looking to be in her early teens.
+    @3: Mismedian Ambassador to Belfast.
+    @4: Then, Mismedian ambassador to Brunhild.
+    @8: Then, Brunhild's Court Magician and engaged to Touya.
+
+- name: Renne
+  book: 2
+  tags: human, belfast, alephis, brunhild@4
+  blurb: A poor young orphan girl that Touya helped and hired as a maid.
+
+- name: Sebek
+  book: 2
+  tags: human, belfast, alephis
+  blurb: >
+    A Belfastian baron responsible for the funding of orphanages.
+    The King suspects him of embezzlement.
+
+
+# BOOK 3
+
+
+- name: Ayane
+  book: 3
+  tags: human, eashen
+  blurb: A trusted servant of the Kokonoe family.
+
+- name: Kokonoe Jutaro
+  book: 3
+  tags: human, eashen
+  blurb: Yae's older brother.
+
+- name: Tokugawa Ieyahsu
+  book: 3
+  tags: human, eashen
+  blurb: A feudal lord of Eashen, has control of Oedo. A well-built man with a mustache.
+
+- name: Takeda Schingen
+  book: 3
+  tags: human, eashen
+  blurb: A feudal lord of Eashen. Killed by Kansukay and controlled as a mindless zombie.
+
+- name: Yamamoto Kansukay
+  book: 3
+  tags: human, eashen
+  blurb: A strategist in Takeda's employ. Went mad due to an Artifact that can control the dead.
+
+- name: Tsubaki
+  book: 3
+  tags: human, eashen, brunhild@5
+  blurb: >
+    A serious but friendly ninja in Kousakas employ.
+    @5: Sought employ at Brunhild, along with the rest of her clan.
+
+- name: Kousaka Masanohbu
+  book: 3
+  tags: human, eashen, brunhild@5
+  blurb: >
+    One of Takeda's Elite Four.
+    @5: Takeda's personal advisor and a gentle person of experience and awareness.
+    Employed at Brunhild as an administrator.
+
+- name: Baba Nohbuharu
+  book: 3
+  tags: human, eashen, brunhild@5
+  blurb: >
+    One of Takeda's Elite Four. Large in build, with long, graying hair.
+    Refers to Touya as "squirt".
+    @5: Employed at Brunhild as an instructor.
+
+- name: Naito Masatoyoh
+  book: 3
+  tags: human, eashen, brunhild@5
+  blurb: >
+    One of Takeda's Elite Four. A gentle-looking man.
+    @5: Employed at Brunhild as the administrator of the town.
+
+- name: Yamagata Masakage
+  book: 3
+  tags: human, eashen, brunhild@5
+  blurb: >
+    One of Takeda's Elite Four. A middle-aged warrior.
+    @5: Employed at Brunhild as an instructor.
+
+- name: Takeda Khatsuyori
+  book: 3
+  tags: human, eashen
+  blurb: >
+    Takeda Schingen's son.
+    Became the new lord once his father was confirmed to be dead.
+    @5: Seems to be a good-for-nothing ruler.
+
+- name: Shimazu
+  book: 3
+  tags: human, eashen
+  blurb: A feudal lord of Eashen.
+
+- name: Mori
+  book: 3
+  tags: human, eashen
+  blurb: A feudal lord of Eashen.
+
+- name: Chosokabe
+  book: 3
+  tags: human, eashen
+  blurb: >
+    A feudal lord of Eashen.
+    @9: Lost to Oda and Hashiba, losing his territory.
+
+- name: Hashiba Chikuzen no Kami Hideyooshi
+  book: 3
+  tags: human, eashen, divinity@9
+  blurb: >
+    A feudal lord of Eashen.
+    @9: Actually a monkey possessed by the runaway servile god Karen and Moroha are looking for.
+    On the run.
+
+- name: Oda Nohbunaga
+  book: 3
+  tags: human, eashen
+  blurb: >
+    A feudal lord of Eashen.
+    @9: Was betrayed by Akechi Mitshuhide at Honnoji Temple and killed.
+
+- name: Uesugi
+  book: 3
+  tags: human, eashen
+  blurb: A feudal lord of Eashen.
+
+- name: Date Jiro Massamune
+  book: 3
+  tags: human, eashen
+  blurb: A young feudal lord of Eashen. He has absolutely no poker face.
+
+- name: Kokuyou
+  book: 3
+  tags: summonedBeast, heavenlyBeast
+  blurb: >
+    One half of the Black Monarch, a legendary magical beast who governs the
+    Winter, the Waters, the North and the Mountains. A large black serpent. Summoned
+    by Touya.
+
+- name: Sango
+  book: 3
+  tags: summonedBeast, heavenlyBeast
+  blurb: >
+    One half of the Black Monarch, a legendary magical beast who governs the
+    Winter, the Waters, the North and the Mountains. An enormous tortoise. Summoned
+    by Touya.
+
+- name: Francesca
+  book: 3
+  tags: gynoid, babylon
+  blurb: >
+    Cesca. Terminal gynoid of the Garden of Babylon. Airframe number 23. A green-haired
+    emotionless dirty joker.
+
+- name: Regina Babylon
+  book: 3
+  tags: partheno, babylon
+  blurb: Doctor Babylon. An eccentric inventor of the distant past. She created Babylon
+    and the wonders hidden within. Had affinity for all types of magic, and her mind
+    firmly in the gutter.
+
+- name: 'God of Love @7: (Mochizuki Karen)'
+  book: 3
+  tags: divinity, brunhild@7
+  blurb: >
+    The goddess that governs the narrative causality of all things romance, get it?
+    @7: Currently staying in Brunhild Castle while she looks for a runaway servile god.
+
+- name: 'Ende @9: (Endymion)'
+  book: 3
+  tags: adventurer, partheno@5
+  blurb: >
+    A mysterious monochromatic boy.
+    @4: Hunts the Phrase.
+    @5: Knows an alarming amount about them. Was alive during the Partheno days. Calls himself a "drifter".
+    @7: Has a Frame Gear; he used it to help fight against the Phrase invasion of Yulong.
+    @9: Can travel between worlds.
+
+- name: Neil Suleiman
+  book: 3
+  tags: human, belfast, alephis
+  blurb: The silver-haired deputy general of Belfast's Knight Order.
+
+- name: Trepang
+  book: 3
+  tags: human
+  blurb: An undead pirate captain. Purified by Touya.
+
+- name: Turbanshell
+  book: 3
+  tags: human
+  blurb: An undead pirate captain. Purified by Touya.
+
+- name: Seahorse
+  book: 3
+  tags: human
+  blurb: An undead pirate captain. Purified by Touya.
+
+- name: Wharfroach
+  book: 3
+  tags: human
+  blurb: An undead pirate captain that calls himself the Pirate King. Wielder of the
+    Soul Reaper, a cutlass Artifact. Purified by Touya.
+
+
+# BOOK 4
+
+
+- name: Rebecca
+  book: 4
+  tags: human, adventurer, brunhild@5
+  blurb: >
+    An adventurer. Touya found her when she was trying to cross the Rabbi Desert
+    to help a group of slaves escape Sandora.
+    @5: A member of Brunhild's knight order.
+
+- name: Logan
+  book: 4
+  tags: human, adventurer, brunhild@5
+  blurb: >
+    An axe-wielding adventurer. Touya found him when she was trying to cross
+    the Rabbi Desert to help a group of slaves escape Sandora.
+    @5: A member of Brunhild's knight order.
+
+- name: Will
+  book: 4
+  tags: human, adventurer, belfast
+  blurb: >
+    An adventurer. Touya found him when she was trying to cross the Rabbi Desert
+    to help a group of slaves escape Sandora. Likes Wendy.
+    @5: A knight at Belfast.
+
+- name: Wendy
+  book: 4
+  tags: human, sandora, belfast
+  blurb: >
+    An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader as
+    a waitress. The youngest of the ex-slaves. Dirty blonde hair in braids. Likes
+    Will.
+
+- name: High Rosetta
+  book: 4
+  tags: gynoid, babylon
+  blurb: >
+    Rosetta. Terminal gynoid of the Babylon Workshop, yessir! Airframe number 27.
+    An orange-haired eager beaver.
+
+- name: Suras
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader, handles
+    the front desk. Short brown hair, bright and cheery personality.
+
+- name: Belle
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader, handles
+    the front desk. Long, wavy brown hair, bright and cheery personality.
+
+- name: Shea
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader's kitchen.
+    Mea's sister. Black hair.
+
+- name: Mea
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader's kitchen.
+    Shea's sister. Black hair.
+
+- name: Sylvie
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader as
+    a waitress. The oldest of the ex-slaves at 21. The confident type who keeps everyone
+    together.
+
+- name: Marica
+  book: 4
+  tags: human, sandora
+  blurb: An ex-slave. Touya found her when she was trying to escape Sandora by crossing
+    the Rabbi Desert, and liberated her. Hired by Touya to work in Moon Reader as
+    a waitress. The second-youngest of the ex-slaves. An energetic girl with lots
+    of spirit.
+
+- name: Reliel Rehm Refreese
+  book: 4
+  tags: human, refreese, royalty
+  blurb: >
+    Rili. Princess of the Refreese Imperium.
+    A BL author by night. Her family doesnt know about this.
+    @9: Uses the penname Lil Refres.
+
+- name: Prim
+  book: 4
+  tags: human, belfast, alephis
+  blurb: A receptionist lady at the guild branch at Alephis. Enthusiastic about BL.
+
+- name: Barrow
+  book: 4
+  tags: human, belfast, alephis
+  blurb: A Belfastian viscount and father to an idiotic power-tripping knight that
+    tried to raid Touya's Belfast home. Their family was stripped of title and land.
+
+- name: Rygel
+  book: 4
+  tags: human, belfast, alephis
+  blurb: A Belfastian marquis, related to the Barrows. Tried to frame Touya for murder,
+    and later tried to have the king assasinated. Was sentenced to death and executed.
+
+- name: Alexander Rygel
+  book: 4
+  tags: human, belfast, alephis
+  blurb: Son of Marquis Rygel. Convicted on various charges, was sent to forever work
+    in the mines.
+
+- name: Caroline Rillettes
+  book: 4
+  tags: human, regulus
+  blurb: Carol. A knight with an unfortunate personality. Renne's aunt.
+
+- name: Lucia Leah Regulus
+  book: 4
+  tags: human, regulus, royalty, wives, brunhild, adventurer
+  blurb: >
+    Lu. The third princess of the Regulus Empire. Expressive and sweet.
+    Engaged to Touya.
+
+- name: Zephyrus Roa Regulus
+  book: 4
+  tags: human, regulus, royalty
+  blurb: Emperor of the Regulus Empire.
+
+- name: Bazoar
+  book: 4
+  tags: human, regulus
+  blurb: A general of the Regulus Empire that went rogue. Attempted a military coup
+    but was ultimately thwarted by Touya.
+
+- name: Romero
+  book: 4
+  tags: human, regulus
+  blurb: A general of the Regulus Empire that stayed loyal to the emperor during the
+    military uprising and sheltered the crown prince.
+
+- name: Cerberus
+  book: 4
+  tags: summonedBeast
+  blurb: >
+    A beast Touya summoned to assist his assault on the occupied Gallaria. A three-headed dog.
+    @5: Guards the castle of Brunhild.
+
+- name: John
+  book: 4
+  tags: summonedBeast
+  blurb: >
+    A beast Touya summoned to assist his assault on the occupied Gallaria. A griffon.
+    @5: Assigned to Nikola.
+
+- name: Paul
+  book: 4
+  tags: summonedBeast
+  blurb: A beast Touya summoned to assist his assault on the occupied Gallaria. A griffon.
+
+- name: George
+  book: 4
+  tags: summonedBeast
+  blurb: A beast Touya summoned to assist his assault on the occupied Gallaria. A griffon.
+
+- name: Ringo
+  book: 4
+  tags: summonedBeast
+  blurb: A beast Touya summoned to assist his assault on the occupied Gallaria. A griffon.
+
+- name: Gaspar
+  book: 4
+  tags: human, regulus
+  blurb: Knight commander of the Knight Order of the Regulus Empire.
+
+- name: Stephanie Rillettes
+  book: 4
+  tags: human, regulus, belfast
+  blurb: Renne's mother, Carol's older sister. Died soon after giving birth to Renne.
+
+- name: Robinson
+  book: 4
+  tags: human, regulus
+  blurb: The Rillettes family butler.
+
+- name: Mary Rillettes
+  book: 4
+  tags: human, regulus
+  blurb: Renne's grandmother.
+
+- name: 'Living portrait frame @$5: Ripple'
+  book: 4
+  tags: human, regulus, brunhild
+  blurb: >
+    A ghost-like magical being. Her true identity is a portrait frame Artifact
+    created by Doctor Babylon. She takes the appearance of the person depicted in
+    the picture in her frame.
+    @5: Named after the castle she inhabited, Ripple Castle.
+    @8: Her original name was Living Frame.
+
+- name: Norn
+  book: 4
+  tags: beastman, brunhild
+  blurb: >
+    Gaspar's little sister. A silver-haired wolfgirl. Laid back. A knight of Brunhild.
+    @5: Vice-commander.
+
+- name: Nikola Strand
+  book: 4
+  tags: beastman, brunhild
+  blurb: >
+    Olga Strand''s cousin. A foxboy. Overly serious. A knight of Brunhild.
+    @5: Vice-commander.
+
+
+
+# BOOK 5
+
+
+- name: Anne
+  book: 5
+  tags: summonedBeast
+  blurb: A pegasus Touya summoned. Assigned to Norn.
+
+- name: Diana
+  book: 5
+  tags: summonedBeast
+  blurb: A pegasus Touya summoned. Assigned to Lain.
+
+- name: Rig Reek Refreese
+  book: 5
+  tags: human, refreese, royalty
+  blurb: Emperor of the Refreese Imperium.
+
+- name: Lux Roa Regulus
+  book: 5
+  tags: human, regulus, royalty
+  blurb: The crown prince of the Regulus Empire. Doesn't have much of a presence.
+
+- name: Sarah Regulus
+  book: 5
+  tags: human, regulus, royalty
+  blurb: A princess of the Regulus Empire.
+
+- name: Zelda
+  book: 5
+  tags: human, refreese, royalty
+  blurb: Empress of Refreese.
+
+- name: Redis Refreese
+  book: 5
+  tags: human, refreese, royalty
+  blurb: Crown Prince of Refreese. Twelve years old, but mature for his age.
+
+- name: Thillie
+  book: 5
+  tags: beastman, mismede, royalty
+  blurb: Queen of Mismede.
+
+- name: Remza
+  book: 5
+  tags: beastman, mismede, royalty
+  blurb: First Prince of Mismede.
+
+- name: Alba
+  book: 5
+  tags: beastman, mismede, royalty
+  blurb: Second Prince of Mismede.
+
+- name: Thea
+  book: 5
+  tags: beastman, mismede, royalty
+  blurb: First Princess of Mismede.
+
+- name: Pam
+  book: 5
+  tags: human, seaOfTrees
+  blurb: Granddaughter of the clan matriarch of the Rauli tribe. Takes a liking to
+    Touya once he saves her tribe from a Phrase construct.
+
+- name: Tania
+  book: 5
+  tags: human, reflet, belfast
+  blurb: A widow living on the nort side Reflet. Seems to like Dolan.
+
+- name: Bell Flora
+  book: 5
+  tags: gynoid, babylon
+  blurb: Flora. Terminal gynoid of the Alchemy Lab of Babylon, you see. Airframe number
+    21. A pink-haired closet pervert.
+
+- name: Lars
+  book: 5
+  tags: ramissh, divinity, spirit
+  blurb: Lars, the God of Light. Revered in the Ramissh Theocracy. Does not exist
+    as such; instead is a corrupted dark spirit summoned by Ramirez. Has passive brainwashing
+    powers.
+
+- name: Elias Altra
+  book: 5
+  tags: human, ramissh, mysticEyes
+  blurb: Her Holiness the Pope of the Ramissh Theocracy. Learning that God truly exists
+    lifted her spirits.
+
+- name: Nesto Renaud
+  book: 5
+  tags: human, ramissh
+  blurb: A close-minded priest from Ramissh. He wears a wig.
+
+- name: Phyllis Rugit
+  book: 5
+  tags: human, ramissh
+  blurb: An open-minded priestess from Ramissh. A quiet, bookish-looking girl. Meeting
+    God changed her.
+
+- name: Ramirez
+  book: 5
+  tags: human, ramissh
+  blurb: The High Light Priest, founder of the Ramissh Theocracy. In actuality, just a user of summoning magic.
+
+- name: Zeon
+  book: 5
+  tags: human, ramissh
+  blurb: A corrupt cardinal from Ramissh. Conspired to take the Pope down.
+
+- name: Kyurei
+  book: 5
+  tags: human, ramissh
+  blurb: A corrupt cardinal from Ramissh and Zeon's elder sister. Conspired to take
+    the Pope down. Impersonated the Pope when Touya came calling.
+
+- name: Joseph
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's uncle. He's very weak-willed when confronted by people of
+    higher social status.
+
+- name: Emma
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. The oldest of eight.
+
+- name: Aaron
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Second oldest of eight. Left for the big city.
+
+- name: Sheena
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Third oldest of eight.
+
+- name: Allen
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Fourth oldest of eight.
+
+- name: Kirara
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Kurara's twin.
+
+- name: Kurara
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Kirara's twin.
+
+- name: Allan
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. Second youngest of eight.
+
+- name: Reno
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's cousin. The youngest of eight.
+
+- name: Lana
+  book: 5
+  tags: human, refreese
+  blurb: Elze and Linze's aunt.
+
+- name: Kougyoku
+  book: 5
+  tags: summonedBeast, heavenlyBeast
+  blurb: The Flame Monarch, a legendary magical beast who governs the Summer, the
+    Flames, the South and the Shores. A Phoenix. Summoned by Touya.
+
+- name: Arisa Strand
+  book: 5
+  tags: beastman, mismede
+  blurb: Olba's wife, and mother of Olga and Arma.
+
+- name: Ilma Strand
+  book: 5
+  tags: beastman, mismede
+  blurb: Olba's wife, and mother of Ikusa.
+
+- name: Ikusa Strand
+  book: 5
+  tags: beastman, mismede
+  blurb: Olba's eldest son.
+
+- name: Shyon Blitz
+  book: 5
+  tags: human, belfast
+  blurb: Leon's eldest son.
+
+
+
+# BOOK 6
+
+
+- name: Fredmonica
+  book: 6
+  tags: gynoid, babylon
+  blurb: Monica. Like, terminal gynoid of the Hangar of Babylon and stuff. Airframe
+    number 28. A hotheaded shorty with long messy red hair, wielding an enormous pipe
+    wrench.
+
+- name: Zabune
+  book: 6
+  tags: human, lihnea, royalty
+  blurb: The disgusting First Prince of Lihnea. A man over thirty, he sent a marriage
+    proposal to Sue with malicious intent. Secretly the son of Wardack and Dacia,
+    and therefore not a legitimate royal. Was eventually sold to a Sandoran merchant
+    as a slave.
+
+- name: Wardack
+  book: 6
+  tags: human, lihnea
+  blurb: The Prime Minister of Lihnea. Dacia's cousin. Secretly Zabune's father, conspiring
+    to have his lineage ascend to the throne of Lihnea. Was eventually sold to a Sandoran
+    merchant as a slave.
+
+- name: Dacia
+  book: 6
+  tags: human, lihnea, royalty
+  blurb: The Queen of Lihnea, Zabune's mother. Conspired to have her son with Wardack,
+    Zabune, ascend to the throne. Was eventually sold to a Sandoran merchant as a
+    slave.
+
+- name: Cloud Zeph Lihnea
+  book: 6
+  tags: human, lihnea, royalty
+  blurb: The second prince of Lihnea, son of the king and a concubine. An upstanding
+    young man. Ascended to the throne of Lihnea as the rightful heir.
+
+- name: Koupe
+  book: 6
+  tags: human, lihnea
+  blurb: A marquis of Lihnea and the former Prime Minister. Sheltered Cloud and kept
+    an eye on his mother, and helped them when the time came.
+
+- name: Erya
+  book: 6
+  tags: human, lihnea, royalty
+  blurb: Queen of Lihnea, mother of Cloud. Was confined in a fortress on Wardack's
+    orders in order to control both Cloud and the King.
+
+- name: Angie
+  book: 6
+  tags: human, lihnea
+  blurb: Personal chambermaid of Queen Erya, protected her while in captivity on Marquis Koupe.
+
+- name: Schlaf
+  book: 6
+  tags: human, lihnea, royalty
+  blurb: King of Lihnea until, upon learning of Dacia and Wardack's machinations,
+    he abdicated in favor of his son Cloud.
+
+- name: Yamato Urnes Belfast
+  book: 6
+  tags: human, belfast, alephis, royalty
+  blurb: The just-born son of King Tristwin and Queen Yuel, Yumina's baby brother
+    and heir to the throne of Belfast. Touya is his godfather.
+
+- name: Fleur
+  book: 6
+  tags: human, lihnea, brunhild
+  blurb: A young woman with light brown hair. Touya rescued her from being Zabune's
+    slave. She now works at the Silver Moon's Brunhild branch. A talented cook.
+
+- name: Relisha Millian
+  book: 6
+  tags: elf, brunhild@7
+  blurb: >
+    A Guildmaster.
+    @7: Has the Brunhild guild branch as her home base.
+
+- name: Lakshy
+  book: 6
+  tags: demonkin, xenoahs, brunhild
+  blurb: An Alraune. She's a member of Brunhild's Knight Order.
+
+- name: Samsa
+  book: 6
+  tags: demonkin, xenoahs, brunhild
+  blurb: An ogre. He's a member of Brunhild's Knight Order.
+
+- name: Sakura
+  book: 6
+  tags: eashen
+  blurb: A girl with long light-pink hair. Touya found her in Eashen on the verge of death.
+
+- name: Hildegard Minas Lestia
+  book: 6
+  tags: human, lestia, royalty, wives@7
+  blurb: >
+    First Princess of Lestia's Knight Kingdom. Resolute and loyal.
+    @7: Engaged to Touya.
+
+- name: Preliora
+  book: 6
+  tags: gynoid, babylon
+  blurb: Liora. Indeed a terminal gynoid of the Rampart of Babylon. Airframe number
+    20. A calm girl with short wavy light-blue hair. Was Doctor Babylon's night attendant.
+
+- name: Pamela Noel
+  book: 6
+  tags: gynoid, babylon
+  blurb: Noel. TerminAl gyNOid of the Tower of Babylon. Airframe number 25. A sleepy
+    hungry shorty with long purple hair.
+
+
+
+# BOOK 7
+
+
+- name: Paolo
+  book: 7
+  tags: human, hannock, brunhild
+  blurb: A member of Brunhild's Knight Order.
+
+- name: Lent
+  book: 7
+  tags: human, hannock
+  blurb: A farmer from Quint, a Hannock village bordering Yulong. An old friend of Paolo.
+
+- name: Galen Yunas Lestia
+  book: 7
+  tags: human, lestia, royalty
+  blurb: Former king of Lestia and a gold-rank adventurer.
+
+- name: Reid Yunas Lestia
+  book: 7
+  tags: human, lestia, royalty
+  blurb: King of Lestia and Hilde's father. Abdicated in favor of his son Reinhard.
+
+- name: Esther
+  book: 7
+  tags: human, lestia, royalty
+  blurb: Queen of Lestia and Hilde's mother.
+
+- name: Reinhard
+  book: 7
+  tags: human, lestia, royalty
+  blurb: First prince of Lestia and Hilde's older brother. Ascended to the throne of Lestia.
+
+- name: Wishing Tree
+  book: 7
+  tags: spirit, seaOfTrees
+  blurb: The Forest Spirit of the Sea of Trees. Takes the form of a young girl with dazzling emerald hair.
+
+- name: Mochizuki Moroha
+  book: 7
+  tags: divinity, brunhild
+  blurb: God of Swords. Came down because it seemed fun. Staying in Brunhild Castle.
+
+- name: Sonia Parallem
+  book: 7
+  tags: dragonkin, adventurer, mysticEyes
+  blurb: A dragonkin girl participating in the Pruning. Her eyes can see past any magical illusion.
+
+- name: Rengetsu
+  book: 7
+  tags: human, adventurer, eashen
+  blurb: A bald aventurer from Eashen that wields a long pole. Participated in the Pruning.
+
+- name: Shouko
+  book: 7
+  tags: human, earth
+  blurb: Touya's first love.
+
+- name: Lushade
+  book: 8
+  tags: vampire, demonkin, xenoahs, brunhild
+  blurb: Despite being a vampire, he dislikes blood and loves garlic. He's a member
+    of Brunhild's Knight Order.
+
+- name: Irisfam
+  book: 8
+  tags: gynoid, babylon
+  blurb: Fam. Terminal gynoid of the Library of Babylon. Airframe number 24. A curt
+    librarian with short icy blue hair.
+
+- name: Eris
+  book: 8
+  tags: fairy, mismede
+  blurb: Mismede's court magician and the next Clan Matriarch of all fairies after Leen retires.
+
+- name: Misha
+  book: 8
+  tags: beastman, brunhild
+  blurb: A receptionist lady at the guild branch at Brunhild. A catwoman.
+
+- name: Deborah Elks
+  book: 8
+  tags: human, partheno
+  blurb: Professor Elks. An eccentric inventor of the distant past. A master of magecraft,
+    though several degrees inferior to Doctor Babylon.
+
+- name: Luli
+  book: 8
+  tags: summonedBeast, heavenlyBeast
+  blurb: The Azure Monarch, a legendary magical beast who governs the Spring, the
+    Trees, the East and the Rivers. A dragon. Summoned by Touya.
+
+- name: Dragon King
+  book: 8
+  tags: human, deceased
+  blurb: A human that endeavored to use artifacts left behind by Professor Deborah
+    Elks to control an army of dragons and take over the world. Was instead chomped
+    in half by one.
+
+- name: Lop
+  book: 8
+  tags: human, adventurer, regulus
+  blurb: A rookie adventurer that was almost kidnapped in the Amaterasu dungeon. He
+    wields a spear and wears scale mail armor. He seems the loyal sort.
+
+- name: Fran
+  book: 8
+  tags: human, adventurer, regulus
+  blurb: A rookie adventurer that was almost kidnapped in the Amaterasu dungeon. She
+    wields an iron sword. She has a ponytail and is energetic.
+
+- name: Klaus
+  book: 8
+  tags: human, adventurer, regulus
+  blurb: A rookie adventurer that was almost kidnapped in the Amaterasu dungeon. He
+    uses a bow and looks like the leader of the bunch.
+
+- name: Eon
+  book: 8
+  tags: human, adventurer, regulus
+  blurb: A rookie adventurer that was almost kidnapped in the Amaterasu dungeon. She's
+    a novice mage and a bit of a klutz. She carries with her a Snowmouse that Touya summoned.
+
+- name: Javert
+  book: 8
+  tags: human, sandora
+  blurb: A slave trader from Sandora. Attempted to kidnap adventurers from the Brunhild
+    dungeon islands to the south of Sandora.
+
+- name: Lileleparshe
+  book: 8
+  tags: gynoid, babylon
+  blurb: Parshe. Terminal gynoid-a of the Storehouse of Babylon. Airframe number 26.
+    A ponytailed airhead and walking disaster zone.
+
+- name: Sureigis
+  book: 8
+  tags: fairy, mismede
+  blurb: A fairy from the fairy village of Mismede.
+
+- name: Ermela
+  book: 8
+  tags: fairy, mismede
+  blurb: A fairy from the fairy village of Mismede.
+
+- name: Nena
+  book: 8
+  tags: fairy, mismede
+  blurb: A fairy from the fairy village of Mismede. One of the elders. Looks to be about eight.
+
+- name: Ati
+  book: 8
+  tags: fairy, mismede
+  blurb: A fairy from the fairy village of Mismede. One of the elders. A stern older sister type.
+
+
+
+# BOOK 9
+
+
+- name: Volk Ragil
+  book: 9
+  tags: human, roadmare
+  blurb: The previous doge of the Roadmare Union. Waffly and unreliable.
+
+- name: Edgar Bowman
+  book: 9
+  tags: human, roadmare
+  blurb: >
+    A prideful middle-aged young man and magical engineer. Has an old book by
+    Professor Deborah Elks. Escaped his punishment and is believed to be with Gordian,
+    the Golden Order, in Felsen.
+
+- name: Audrey Leliban
+  book: 9
+  tags: human, roadmare
+  blurb: Governor of the Highland State of Roadmare, then doge. Serene and efficient.
+
+- name: Limit Limitex
+  book: 9
+  tags: human, roadmare
+  blurb: Commander of the highland knights of Roadmare.
+
+- name: Ney
+  book: 9
+  tags: phrase
+  blurb: A humanoid Dominant Construct Phrase. Extremely antagonistic towards Ende.
+
+- name: The Sovereign
+  book: 9
+  tags: phrase
+  blurb: The being the Phrase are looking for.
+
+- name: Lycee
+  book: 9
+  tags: phrase
+  blurb: Apparently, a humanoid Dominant Construct Phrase. Ende's ally.
+
+- name: Spica Frennel
+  book: 9
+  tags: xenoahs, darkElf, brunhild
+  blurb: A dark elf royal bodyguard from Xenoahs, she fled to Brunhild, where Touya
+    cured her of the Demoderma illness and gave her work as a knight. A Shieldguard user.
+
+- name: Akechi Mitshuhide
+  book: 9
+  tags: human, eashen
+  blurb: The man that betrayed Oda Nohbunaga and killed him.
+
+- name: God of Amusement
+  book: 9
+  tags: divinity
+  blurb: A god that favors amusement. Very attached to Earth.
+
+- name: God of Invention
+  book: 9
+  tags: divinity
+  blurb: A god that favors invention. Very attached to Earth.
+
+- name: God of Magic
+  book: 9
+  tags: divinity
+  blurb: A god that favors magic.
+
+- name: God of Shields
+  book: 9
+  tags: divinity
+  blurb: A god that favors shields. Hard to please.
+
+- name: Fukushima Massanori
+  book: 9
+  tags: human, eashen
+  blurb: One of Hashiba's retainers. A naginata user.
+
+- name: Katou
+  book: 9
+  tags: human, eashen
+  blurb: One of Hashiba's vassals. Unceremoniously defeated.
+
+- name: Katakura Kohjuro Kagetsunna
+  book: 9
+  tags: human, eashen
+  blurb: Date's loyal retainer.
+
+- name: Boulanger Frost Felsen
+  book: 9
+  tags: human, felsen
+  blurb: The King of Felsen. An affable burly guy that will nerd out over weapons
+    with a history at the drop of a hat. Somehow engaged to Princess Ellicia.
+
+- name: Amond
+  book: 9
+  tags: human, felsen
+  blurb: Felsen's intense prime minister.
+
+- name: Ludo
+  book: 9
+  tags: human, felsen
+  blurb: Felsen's court magician. Passionate about research and nothing else.
+
+- name: Easeus
+  book: 9
+  tags: human, felsen
+  blurb: The suspicious sunglasses-wearing Chief Officer of Felsen's Magical Chamber
+    of Commerce and Industry.
+
+- name: Ellicia Leah Regulus
+  book: 9
+  tags: human, regulus, felsen
+  blurb: A princess of Regulus and Lu's older sister. Somehow engaged to King Boulanger.
+
+- name: Leold Frost Felsen
+  book: 9
+  tags: human, felsen, deceased
+  blurb: The former King of Felsen. Passed away in a confrontation against Gordian,
+    the Golden Order.
+
+- name: Garland Goldie
+  book: 9
+  tags: human, felsen, gordian, deceased
+  blurb: The late leader of Gordian, the Golden Order of Felsen, and a close friend of Leold.
+
+- name: Galzeld Goldie
+  book: 9
+  tags: human, felsen, gordian
+  blurb: Son of Galzeld, the late leader of Gordian, the Golden Order of Felsen. Suspected
+    of being the current leader.
+
+- name: King of Ryle
+  book: 9
+  tags: dwarf, ryle
+  blurb: The King of Ryle. A rotund dwarf with a white beard. A gentle, mild and clumsy person.
+
+- name: Toyya
+  book: 9
+  tags: human, fictional
+  blurb: Hero of a play by Lil Refres based on Touya and Yumina.
+
+- name: Yuina
+  book: 9
+  tags: human, fictional
+  blurb: Heroine of a play by Lil Refres based on Touya and Yumina.
+
