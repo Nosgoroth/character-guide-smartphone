@@ -13,7 +13,7 @@ welcome: >
     <p><strong>Start by choosing up to which book you've read with the slider below.</strong> Everything is book-scoped, so the information will change accordingly.</p>
 
 attribution: >
-    Based on the releases by <a href="https://j-novel.club/">J-Novel Club</a>, translated by <a href="https://twitter.com/DistantValhalla">Andrew Hodgson</a>. Report issues to <a href="https://twitter.com/Nosgoroth">Nosgoroth</a>.
+    Based on the releases by <a href="https://j-novel.club/">J-Novel Club</a>, translated by <a href="https://twitter.com/DistantValhalla">Andrew Hodgson</a>. Report issues to <a href="https://twitter.com/Nosgoroth">Nosgoroth</a>. Github: <a href="https://github.com/Nosgoroth/character-guide">webapp</a>, <a href="https://github.com/Nosgoroth/character-guide-smartphone">data</a>.
 
 ga: UA-7383005-17
 
