@@ -32,7 +32,7 @@
 
 
 - name: Mochizuki Touya
-  tags: human, earth, adventurer, brunhild@4, divinity@5
+  tags: human, earth, adventurer, brunhild@4, royalty@4, divinity@5
   blurb: >
     The main character. An easygoing guy that died and got reincarnated in another
     world with his smartphone. Touya''s the first name, Mochizuki the last.
@@ -41,7 +41,9 @@
     @6: Gold-rank adventurer.
     @9: Briefly went by Shirogane.
 
-- name: 'God @$3: God of Worlds'
+- name: >
+    God
+    @$3: God of Worlds
   tags: divinity
   blurb: Touya's affable divine benefactor. He enjoys tea and cookies.
 
@@ -432,27 +434,40 @@
 
 - name: Regina Babylon
   book: 3
-  tags: partheno, babylon
-  blurb: Doctor Babylon. An eccentric inventor of the distant past. She created Babylon
-    and the wonders hidden within. Had affinity for all types of magic, and her mind
-    firmly in the gutter.
+  tags: partheno, babylon, gynoid@10
+  blurb: >
+    Doctor Babylon.
+    An eccentric inventor of the distant past and foremost magitechnician of the kingdom of Partheno, she created Babylon and the wonders hidden within.
+    Had affinity for all types of magic, and her mind firmly in the gutter.
+    @10: Transferred her brain to a young gynoid body and is now going wild in the present time. Airframe number 29.
 
-- name: 'God of Love @7: (Mochizuki Karen)'
+- name: >
+    God of Love
+    @$7: Mochizuki Karen
   book: 3
   tags: divinity, brunhild@7
   blurb: >
     The goddess that governs the narrative causality of all things romance, get it?
-    @7: Currently staying in Brunhild Castle while she looks for a runaway servile god.
+    @$7:
+    God of Love. Governs the narrative causality of all things romance, get it?
+    Currently staying in Brunhild Castle as Touya's older sister while she looks for a runaway servile god.
 
-- name: 'Ende @9: (Endymion)'
+- name: >
+    Ende
+    @9: (Endymion)
+    @$10: Endymion (Ende)
   book: 3
-  tags: adventurer, partheno@5
+  tags: adventurer, partheno@5, drifter
   blurb: >
     A mysterious monochromatic boy.
     @4: Hunts the Phrase.
     @5: Knows an alarming amount about them. Was alive during the Partheno days. Calls himself a "drifter".
     @7: Has a Frame Gear; he used it to help fight against the Phrase invasion of Yulong.
     @9: Can travel between worlds.
+    @$10:
+    A monochromatic boy, member of a race of world-hopping Drifters.
+    Met the Sovereign Phrase on his visit to Phrasia, essentially eloped with her and set out to travel to different worlds with her, prompting some of the other Phrase to follow in pursuit and destroy everything in their wake.
+    He now fights those who would separate them, while also trying to protect the worlds the Phrase bring harm to in their pursuit.
 
 - name: Neil Suleiman
   book: 3
@@ -591,7 +606,7 @@
   book: 4
   tags: human, belfast, alephis
   blurb: A Belfastian marquis, related to the Barrows. Tried to frame Touya for murder,
-    and later tried to have the king assasinated. Was sentenced to death and executed.
+    and later tried to have the king assassinated. Was sentenced to death and executed.
 
 - name: Alexander Rygel
   book: 4
@@ -980,17 +995,26 @@
 - name: Lakshy
   book: 6
   tags: demonkin, xenoahs, brunhild
-  blurb: An Alraune. She's a member of Brunhild's Knight Order.
+  blurb: >
+    An Alraune. She's a member of Brunhild's Knight Order.
+    @10: Generrally assigned to agricultural matters.
 
 - name: Samsa
   book: 6
   tags: demonkin, xenoahs, brunhild
   blurb: An ogre. He's a member of Brunhild's Knight Order.
 
-- name: Sakura
+- name: >
+    Sakura
+    @10: (Farnese Forneus)
   book: 6
-  tags: eashen
-  blurb: A girl with long light-pink hair. Touya found her in Eashen on the verge of death.
+  tags: brunhild, xenoahs@10, royalty@10, wives@10, human@10, demonkin@10
+  blurb: >
+    A girl with long light-pink hair.
+    Touya found her in Eashen on the verge of death.
+    @10: Actually the missing princess of Xenoahs.
+    Engaged to Touya.
+
 
 - name: Hildegard Minas Lestia
   book: 6
@@ -1054,7 +1078,7 @@
 - name: Mochizuki Moroha
   book: 7
   tags: divinity, brunhild
-  blurb: God of Swords. Came down because it seemed fun. Staying in Brunhild Castle.
+  blurb: God of Swords. Came down because it seemed fun. Staying in Brunhild Castle as Touya's older sister.
 
 - name: Sonia Parallem
   book: 7
@@ -1180,18 +1204,20 @@
 
 - name: Edgar Bowman
   book: 9
-  tags: human, roadmare
+  tags: human, roadmare, deceased@10
   blurb: >
-    A prideful middle-aged young man and magical engineer. Has an old book by
-    Professor Deborah Elks. Escaped his punishment and is believed to be with Gordian,
-    the Golden Order, in Felsen.
+    A prideful middle-aged young man and magical engineer.
+    Has an old book by Professor Deborah Elks.
+    Escaped his punishment and is believed to be with Gordian, the Golden Order, in Felsen.
+    @10: Used a stolen broken to make an army of subpar copies of Brunhild's Frame Gears with help from the Golden Order.
+    Was brough to justice and sentenced to death.
 
 - name: Audrey Leliban
   book: 9
   tags: human, roadmare
   blurb: Governor of the Highland State of Roadmare, then doge. Serene and efficient.
 
-- name: Limit Limitex
+- name: Limitt Limitex
   book: 9
   tags: human, roadmare
   blurb: Commander of the highland knights of Roadmare.
@@ -1199,23 +1225,31 @@
 - name: Ney
   book: 9
   tags: phrase
-  blurb: A humanoid Dominant Construct Phrase. Extremely antagonistic towards Ende.
+  blurb: A Dominant Construct. Extremely antagonistic towards Ende, but familiar with Lycee.
 
 - name: The Sovereign
   book: 9
   tags: phrase
-  blurb: The being the Phrase are looking for.
+  blurb: >
+    The leader of the Phrase and the being they're looking for.
+    @10:
+    Essentially eloped with Endymion and went traveling with him through different worlds. Eventually, some of the other Phrase found the means to follow her, with multiple intents -- some to retrieve her, some to take her power.
+    Her goal is to eventually reach the heights from where Endymion once came and hopefully acquire a method of becoming an existence like him.
 
 - name: Lycee
   book: 9
   tags: phrase
-  blurb: Apparently, a humanoid Dominant Construct Phrase. Ende's ally.
+  blurb: >
+    Apparently, a humanoid Dominant Construct Phrase. Ende's ally?
+    @$10:
+    A very beautiful Dominant Construct.
+    Purely neutral in the Phrase conflict, merely wishes to observe the Sovereign and where her path takes her.
+    Associated with Ende, and familiar with Ney.
 
 - name: Spica Frennel
   book: 9
   tags: xenoahs, darkElf, brunhild
-  blurb: A dark elf royal bodyguard from Xenoahs, she fled to Brunhild, where Touya
-    cured her of the Demoderma illness and gave her work as a knight. A Shieldguard user.
+  blurb: A dark elf royal bodyguard from Xenoahs, she fled to Brunhild, where Touya cured her of the Demoderma illness and gave her work as a knight. A Shieldguard user.
 
 - name: Akechi Mitshuhide
   book: 9
@@ -1260,8 +1294,10 @@
 - name: Boulanger Frost Felsen
   book: 9
   tags: human, felsen
-  blurb: The King of Felsen. An affable burly guy that will nerd out over weapons
-    with a history at the drop of a hat. Somehow engaged to Princess Ellicia.
+  blurb: >
+    The King of Felsen.
+    An affable burly guy that will nerd out over weapons with a history at the drop of a hat.
+    Somehow engaged to Princess Ellicia.
 
 - name: Amond
   book: 9
@@ -1276,8 +1312,7 @@
 - name: Easeus
   book: 9
   tags: human, felsen
-  blurb: The suspicious sunglasses-wearing Chief Officer of Felsen's Magical Chamber
-    of Commerce and Industry.
+  blurb: The suspicious sunglasses-wearing Chief Officer of Felsen's Magical Chamber of Commerce and Industry.
 
 - name: Ellicia Leah Regulus
   book: 9
@@ -1295,11 +1330,14 @@
   tags: human, felsen, gordian, deceased
   blurb: The late leader of Gordian, the Golden Order of Felsen, and a close friend of Leold.
 
-- name: Galzeld Goldie
+- name: >
+    Galzeld Goldie
+    @$10: Galzeld "Gad" Goldie
   book: 9
   tags: human, felsen, gordian
-  blurb: Son of Galzeld, the late leader of Gordian, the Golden Order of Felsen. Suspected
-    of being the current leader.
+  blurb: >
+    Son of Galzeld, the late leader of Gordian, the Golden Order of Felsen. Suspected of being the current leader.
+    @10: Used Edgar Bowman to make an army of subpar copies of Brunhild's Frame Gears with the purpose of invading his home country of Felsen and realizing a society of magic supremacy. Was thwarted by Touya and friends.
 
 - name: King of Ryle
   book: 9
@@ -1316,3 +1354,82 @@
   tags: human, fictional
   blurb: Heroine of a play by Lil Refres based on Touya and Yumina.
 
+
+
+# BOOK 10
+
+- name: Zelgadi von Xenoahs
+  book: 10
+  tags: demonkin, xenoahs, royalty
+  blurb: The overbearing ruler of Xenoahs. An annoyingly doting dad.
+
+- name: Fiana Forneus
+  book: 10
+  tags: human, xenoahs, felsen, brunhild
+  blurb: Sakura's mother. Origianlly from Felsen, where she used to be a schoolteacher. She's now one in Brunhild.
+
+- name: Swellra Frennel
+  book: 10
+  tags: darkElf, xenoahs
+  blurb: Spica's mother.
+
+- name: Gila
+  book: 10
+  tags: phrase
+  blurb: >
+    A Dominant Construct that attacked Pandemonium, the fortress of the overlord of Xenoahs.
+    Hostile and hot-tempered, he aims to take the power of the Sovereing for humself.
+
+- name: Sirius Frennel
+  book: 10
+  tags: darkElf, xenoahs
+  blurb: Spica's father.
+
+- name: Faron Ribbuck
+  book: 10
+  tags: demonkin, xenoahs, royalty
+  blurb: The First Prince of Xenoahs. A fair and just, but simple-minded person.
+
+- name: Farese Arnos
+  book: 10
+  tags: demonkin, xenoahs, royalty
+  blurb: The Second Prince of Xenoahs. A meek bookworm.
+
+- name: Severus Arnos
+  book: 10
+  tags: demonkin, xenoahs
+  blurb: >
+    Uncle of Second Prince Farese of Xenoahs and once poised for succession of the Arnos Merchant Corporation.
+    Conspired with Yulong to have Sakura assassinated in exchange for black market deals.
+
+- name: D'Artagnan (Mr. Mittens)
+  book: 10
+  tags: summonedBeast
+  blurb: >
+    A Cat Sith summoned by Sakura and kept manifested with the assistance of Touya's magic.
+    Pawsitively knightly towards women. Surprisingly reliable.
+
+- name: Sea serpent
+  book: 10
+  tags: dragon, egret
+  blurb: A massive, friendly aquatic dragon that lives around the shores of Egret.
+
+- name: Atlantica
+  book: 10
+  tags: gynoid, babylon
+  blurb: Tica. Terminal gynoid of the Garden of Babylon, mmh. Airframe number 22. A brown-braided lolicon.
+
+- name: Chieh Xiaofah
+  book: 10
+  tags: human, adventurer, felsen, yulong, deceased
+  blurb: A slimy adventurer-turned-thief that murdered and lied his way to a position as heavenly emperor of Yulong. He was in turn betrayed by his associates and then brought to capital justice by the relatives and friends of one he had murdered.
+
+- name: Jesty Parallax
+  book: 10
+  tags: human, adventurer
+  blurb: Son of an adventurer murdered in cold blood by Xiaofah. Embarked on a quest for revenge with Sonia and Rengetsu.
+
+- name: Sol
+  book: 10
+  tags: human, felsen, yulong, gordian
+  blurb: A higher-up in the ranks of the Golden Order, a physical fighter that teamed up with Galzeld.
