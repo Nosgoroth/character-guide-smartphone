@@ -1443,3 +1443,67 @@
   book: 10
   tags: human, felsen, yulong, gordian
   blurb: A higher-up in the ranks of the Golden Order, a physical fighter that teamed up with Galzeld.
+
+
+
+# BOOK 11
+
+- name: Lanz Tempest
+  book: 11
+  tags: human, lestia, brunhild
+  blurb: A knight of Brunhild. Overly serious but very competent.
+
+- name: Charon
+  book: 11
+  tags: human, belfast, brunhild
+  blurb: A knight of Brunhild. Not a fighter type, but a resourceful man with a green thumb.
+
+- name: Ashley
+  book: 11
+  tags: beastman, brunhild
+  blurb: A knight of Brunhild. A lioness. Suffered discrimination from fellow knight hopefuls during the exams, but ended passing.
+
+- name: Baris
+  book: 11
+  tags: beastman, brunhild
+  blurb: A knight of Brunhild. A winged man. Suffered discrimination from fellow knight hopefuls during the exams, but ended passing.
+
+- name: Dingo
+  book: 11
+  tags: demonkin, brunhild
+  blurb: A knight of Brunhild. A wardog. Suffered discrimination from fellow knight hopefuls during the exams, but ended passing.
+
+- name: Lifon
+  book: 11
+  tags: beastman, brunhild
+  blurb: A knight of Brunhild. An arachne girl. Suffered discrimination from fellow knight hopefuls during the exams, but ended passing.
+
+- name: Sarutobi Homura
+  book: 11
+  tags: human, eashen, brunhild, mysticEyes
+  blurb: One of the trio of ninja girls in Tsubaki's intel corps. A short-haired, bright and energetic girl.
+
+- name: Kirigakure Shizuku
+  book: 11
+  tags: human, eashen, brunhild
+  blurb: One of the trio of ninja girls in Tsubaki's intel corps. A long-haired, cool, calm and collected girl.
+
+- name: Fuma Nagi
+  book: 11
+  tags: human, eashen, brunhild
+  blurb: One of the trio of ninja girls in Tsubaki's intel corps. A girl with shoulder-length hair and little presence.
+
+- name: Sarutobi Sasuke
+  book: 11
+  tags: human, eashen
+  blurb: Father of Homura.
+
+- name: Kirigakure Saizou
+  book: 11
+  tags: human, eashen
+  blurb: Father of Homura.
+
+- name: Fuma Kotarou
+  book: 11
+  tags: human, eashen
+  blurb: Father of Homura.
