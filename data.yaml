@@ -233,7 +233,9 @@
   tags: human, alephis, belfast
   blurb: Gatekeeper and security personnel for Touya's mansion.
 
-- name: Lain
+- name: >
+    Lain
+    @11: Netherland
   book: 2
   tags: beastman, mismede, brunhild@4
   blurb: >
@@ -707,7 +709,9 @@
     @5: Named after the castle she inhabited, Ripple Castle.
     @8: Her original name was Living Frame.
 
-- name: Norn
+- name: >
+    Norn
+    @11: Siberia
   book: 4
   tags: beastman, brunhild
   blurb: >
