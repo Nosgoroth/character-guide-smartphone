@@ -64,6 +64,7 @@
   blurb: >
     Linze's twin sister. An adventurer that excels at physical combat. Bold and outgoing.
     @3: Engaged to Touya.
+    @9: Pilots the Frame Gear Gerhilde.
 
 - name: Linze Silhoueska
   tags: human, adventurer, belfast, wives@3, brunhild@4
@@ -71,6 +72,7 @@
     Elze's twin sister. An adventurer that excels at magical combat.
     Shy and reserved.
     @3: Engaged to Touya.
+    @11: Pilots the Frame Gear Helmwige.
 
 - name: Barral
   tags: beastman, reflet, belfast
@@ -81,12 +83,14 @@
   blurb: >
     A swordswoman from the Far East, she is. Refined and kind.
     @3: Engaged to Touya.
+    @9: Pilots the Frame Gear Schwertleite.
 
 - name: Sushie Urnea Ortlinde
   tags: human, belfast, alephis, royalty, wives@6
   blurb: >
     Sue. Daughter of Duke Alfred of Belfast. Precocious and energetic.
     @6: Engaged to Touya.
+    @10: Pilots the Frame Gear Ortlinde.
 
 - name: Leim
   tags: human, belfast, alephis
@@ -280,6 +284,7 @@
     @3: Mismedian Ambassador to Belfast.
     @4: Then, Mismedian ambassador to Brunhild.
     @8: Then, Brunhild's Court Magician and engaged to Touya.
+    @11: Pilots the Frame Gear Grimgerde.
 
 - name: Renne
   book: 2
@@ -1022,6 +1027,7 @@
   blurb: >
     First Princess of Lestia's Knight Kingdom. Resolute and loyal.
     @7: Engaged to Touya.
+    @9: Pilots the Frame Gear Siegrune.
 
 - name: Preliora
   book: 6
