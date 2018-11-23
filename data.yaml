@@ -34,6 +34,7 @@
 - name: Mochizuki Touya
   alias: >
     @9: Shirogane
+    @11: , Robin Loxley
   tags: human, earth, adventurer, brunhild@4, royalty@4, divinity@5
   blurb: >
     The main character. An easygoing guy that died and got reincarnated in another
@@ -1511,3 +1512,10 @@
   blurb: Father of Nagi.
 
 
+- name: Abdul Djerba Sandora III
+  book: 11
+  tags: human, sandora, deceased
+  blurb: >
+    The king of the Burning Kingdom, Sandora.
+    Held control over all of its slaves, until he lost it to Touya and was killed by one.
+    Returned as a Zombie only to be vanquished right back.
