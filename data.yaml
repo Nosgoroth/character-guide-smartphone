@@ -394,13 +394,18 @@
     A feudal lord of Eashen.
     @9: Lost to Oda and Hashiba, losing his territory.
 
-- name: Hashiba Chikuzen no Kami Hideyooshi
+- name: >
+    Hashiba Chikuzen no Kami Hideyooshi
+    @$9: Servile God
   book: 3
   tags: human, eashen, divinity@9
   blurb: >
     A feudal lord of Eashen.
-    @9: Actually a monkey possessed by the runaway servile god Karen and Moroha are looking for.
+    @$9:
+    Previously known as Hashiba Chikuzen no Kami Hideyooshi, a feudal lord of Eashen.
+    Was found out to actually be the runaway servile god Karen and Moroha are looking for, possessing a monkey.
     On the run.
+    @11: Made contact with the Phrase Dominant Construct Yula.
 
 - name: Oda Nohbunaga
   book: 3
@@ -1550,6 +1555,7 @@
   book: 11
   tags: phrase
   blurb: A Dominant Construct with a desire for absolute dominance over everything, he seeked divinity in order to obtain power.
+
 - name: Abdul Djerba Sandora III
   book: 11
   tags: human, sandora, deceased
