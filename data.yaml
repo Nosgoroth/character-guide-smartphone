@@ -1511,6 +1511,20 @@
   tags: human, eashen
   blurb: Father of Nagi.
 
+- name: Alexei
+  book: 11
+  tags: human, elfrau
+  blurb: A soldier of Elfrau. Was in charge of the unit trying to keep the Snorra Wolf under control.
+
+- name: Fortuna Tierra Elfrau
+  book: 11
+  tags: elf, elfrau
+  blurb: The queen of Elfrau. Has lived for over a thousand years.
+
+- name: El Carterede
+  book: 11
+  tags: human, elfrau
+  blurb: The late husband of the Fortuna Tierra and founder of the country of Elfrau.
 
 - name: Abdul Djerba Sandora III
   book: 11
