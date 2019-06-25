@@ -93,7 +93,7 @@
   blurb: >
     Sue. Daughter of Duke Alfred of Belfast. Precocious and energetic.
     @6: Engaged to Touya.
-    @10: Pilots the Frame Gear Ortlinde Overlord.
+    @10: Pilots the Frame Gear Ortlinde.
 
 - name: Leim
   tags: human, belfast, alephis
@@ -398,7 +398,7 @@
     Hashiba Chikuzen no Kami Hideyooshi
     @$9: Servile God
   book: 3
-  tags: human, eashen, divinity@9
+  tags: human, eashen, divinity@9, deceased@12
   blurb: >
     A feudal lord of Eashen.
     @$9:
@@ -406,6 +406,7 @@
     Was found out to actually be the runaway servile god Karen and Moroha are looking for, possessing a monkey.
     On the run.
     @11: Made contact with the Phrase Dominant Construct Yula.
+    @12: Was consumed by his creation, the Godbeast.
 
 - name: Oda Nohbunaga
   book: 3
@@ -1563,4 +1564,27 @@
     The king of the Burning Kingdom, Sandora.
     Held control over all of its slaves, until he lost it to Touya and was killed by one.
     Returned as a Zombie only to be vanquished right back.
+
+
+
+# BOOK 12
+
+- name: Dyent South
+  book: 12
+  tags: human, paleriusIsland
+  blurb: One of the four High-Brothers of Palerius Island.
+
+- name: Freyend South
+  book: 12
+  tags: human, paleriusIsland, deceased
+  blurb: An ancestor of Dyent South.
+
+- name: Alerius Palerius
+  alias: The Sage of Hours
+  book: 12
+  tags: human, partheno, deceased
+  blurb: A great mage from Partheno that specialized in Spacetime magic and builder of the original gate to the Reverse World. Did his research in what would eventually become Palerius Island.
+
+
+
 
