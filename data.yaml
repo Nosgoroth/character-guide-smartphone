@@ -38,15 +38,17 @@
   tags: human, earth, adventurer, brunhild@4, royalty@4, divinity@5
   blurb: >
     The main character. An easygoing guy that died and got reincarnated in another
-    world with his smartphone. Touya''s the first name, Mochizuki the last.
+    world with his smartphone. Touya's the first name, Mochizuki the last.
     @4: Grand Duke of Brunhild.
-    @5: Kind of a demigod.
+    @5: Kind of a god.
     @6: Gold-rank adventurer.
-    @9: Briefly went by Shirogane.
+    @9: Pilots the Frame Gear Reginleif.
 
 - name: >
     God
     @$3: God of Worlds
+  alias: >
+    @$13: Mochizuki Shinnosuke
   tags: divinity
   blurb: Touya's affable divine benefactor. He enjoys tea and cookies.
 
@@ -117,7 +119,7 @@
 - name: Kokonoe Jubei
   tags: human, eashen
   blurb: >
-    Yae''s father.
+    Yae's father.
     @3: A large, grizzled-looking man. The swordsmanship instructor of the Tokugawas.
 
 - name: Kokonoe Nanae
@@ -140,8 +142,10 @@
   blurb: Owner of the Silver Moon inn at Reflet. Micah's dad.
 
 - name: Aer
-  tags: human, reflet, belfast
-  blurb: Owner of the Parent Cafe at Reflet.
+  tags: human, reflet, belfast, brunhild@13
+  blurb: >
+    Owner of the Parent Cafe at Reflet.
+    @13: Left it to her recently married younger sister, and opened a branch location in Brunhild.
 
 - name: Simon
   tags: human, reflet, belfast
@@ -163,6 +167,7 @@
     Princess Yumina of Belfast. Her eyes can discern the quality of a person.
     Regal and dignified.
     @3: Engaged to Touya.
+    @12: Pilots the Frame Gear Brunnhilde.
 
 - name: Tristwin Ernes Belfast
   tags: human, belfast, alephis, royalty
@@ -397,12 +402,14 @@
 - name: >
     Hashiba Chikuzen no Kami Hideyooshi
     @$9: Servile God
+  alias: >
+    @$9: Hashiba Chikuzen no Kami Hideyooshi
   book: 3
   tags: human, eashen, divinity@9, deceased@12
   blurb: >
     A feudal lord of Eashen.
     @$9:
-    Previously known as Hashiba Chikuzen no Kami Hideyooshi, a feudal lord of Eashen.
+    Previously thought to be a feudal lord of Eashen.
     Was found out to actually be the runaway servile god Karen and Moroha are looking for, possessing a monkey.
     On the run.
     @11: Made contact with the Phrase Dominant Construct Yula.
@@ -457,16 +464,14 @@
     Had affinity for all types of magic, and her mind firmly in the gutter.
     @10: Transferred her brain to a young gynoid body and is now going wild in the present time. Airframe number 29.
 
-- name: >
-    God of Love
+- name: God of Love
+  alias: >
     @$7: Mochizuki Karen
   book: 3
   tags: divinity, brunhild@7
   blurb: >
-    The goddess that governs the narrative causality of all things romance, get it?
-    @$7:
-    God of Love. Governs the narrative causality of all things romance, get it?
-    Currently staying in Brunhild Castle as Touya's older sister while she looks for a runaway servile god.
+    The goddess that governs the narrative causality of all things romance, you know?
+    @7: Currently staying in Brunhild Castle as Touya's older sister.
 
 - name: >
     Ende
@@ -641,6 +646,7 @@
   blurb: >
     Lu. The third princess of the Regulus Empire. Expressive and sweet.
     Engaged to Touya.
+    @12: Pilots the Frame Gear Waltraute.
 
 - name: Zephyrus Roa Regulus
   book: 4
@@ -813,7 +819,7 @@
 
 - name: Lars
   book: 5
-  tags: ramissh, divinity, spirit
+  tags: ramissh, spirit
   blurb: Lars, the God of Light. Revered in the Ramissh Theocracy. Does not exist
     as such; instead is a corrupted dark spirit summoned by Ramirez. Has passive brainwashing
     powers.
@@ -1015,16 +1021,16 @@
   tags: demonkin, xenoahs, brunhild
   blurb: >
     An Alraune. She's a member of Brunhild's Knight Order.
-    @10: Generrally assigned to agricultural matters.
+    @10: Generally assigned to agricultural matters.
 
 - name: Samsa
   book: 6
   tags: demonkin, xenoahs, brunhild
   blurb: An ogre. He's a member of Brunhild's Knight Order.
 
-- name: >
-    Sakura
-    @10: (Farnese Forneus)
+- name: Sakura
+  alias: >
+    @10: Farnese Forneus
   book: 6
   tags: brunhild, xenoahs@10, royalty@10, wives@10, human@10, demonkin@10
   blurb: >
@@ -1032,6 +1038,7 @@
     Touya found her in Eashen on the verge of death.
     @10: Actually the missing princess of Xenoahs.
     Engaged to Touya.
+    @12: Pilots the Frame Gear Rossweisse.
 
 
 - name: Hildegard Minas Lestia
@@ -1094,10 +1101,11 @@
   tags: spirit, seaOfTrees
   blurb: The Forest Spirit of the Sea of Trees. Takes the form of a young girl with dazzling emerald hair.
 
-- name: Mochizuki Moroha
+- name: God of Swords
+  alias: Mochizuki Moroha
   book: 7
   tags: divinity, brunhild
-  blurb: God of Swords. Came down because it seemed fun. Staying in Brunhild Castle as Touya's older sister.
+  blurb: Came down because it seemed fun. Staying in Brunhild Castle as Touya's older sister.
 
 - name: Sonia Parallem
   book: 7
@@ -1358,7 +1366,9 @@
     Son of Galzeld, the late leader of Gordian, the Golden Order of Felsen. Suspected of being the current leader.
     @10: Used Edgar Bowman to make an army of subpar copies of Brunhild's Frame Gears with the purpose of invading his home country of Felsen and realizing a society of magic supremacy. Was thwarted by Touya and friends.
 
-- name: King of Ryle
+- name: >
+    King of Ryle
+    @$13: Burstra Durga Ryle
   book: 9
   tags: dwarf, ryle
   blurb: The King of Ryle. A rotund dwarf with a white beard. A gentle, mild and clumsy person.
@@ -1394,10 +1404,11 @@
 
 - name: Gila
   book: 10
-  tags: phrase
+  tags: phrase, deceased@13
   blurb: >
     A Dominant Construct that attacked Pandemonium, the fortress of the overlord of Xenoahs.
-    Hostile and hot-tempered, he aims to take the power of the Sovereing for humself.
+    Hostile and hot-tempered, he aims to take the power of the Sovereing for himself.
+    @13: Ultimately defeated by Touya.
 
 - name: Sirius Frennel
   book: 10
@@ -1441,7 +1452,7 @@
 - name: Chieh Xiaofah
   book: 10
   tags: human, adventurer, felsen, yulong, deceased
-  blurb: A slimy adventurer-turned-thief that murdered and lied his way to a position as heavenly emperor of Yulong. He was in turn betrayed by his associates and then brought to capital justice by the relatives and friends of one he had murdered.
+  blurb: A slimy adventurer-turned-thief who murdered and lied his way to a position as heavenly emperor of Yulong. He was in turn betrayed by his associates and then brought to capital justice by the relatives and friends of one he had murdered.
 
 - name: Jesty Parallax
   book: 10
@@ -1530,27 +1541,31 @@
 - name: El Carterede
   book: 11
   tags: human, elfrau
-  blurb: The late husband of the Fortuna Tierra and founder of the country of Elfrau.
+  blurb: The late husband of Fortuna Tierra and founder of the country of Elfrau.
 
-- name: Mochizuki Kousuke
+- name: God of Agriculture
+  alias: Mochizuki Kousuke
   book: 11
   tags: divinity, brunhild
-  blurb: God of Agriculture. Came down for a break and to have some fun. A simple man that enjoys working the earth. 
+  blurb: Came down for a break and to have some fun. A simple man that enjoys working the earth. 
 
-- name: Mochizuki Sousuke
+- name: God of Music
+  alias: Mochizuki Sousuke
   book: 11
   tags: divinity, brunhild
-  blurb: God of Music. Came down for a break and to have some fun. A pretty boy in his twenties who would rather let his instrument speak rather than open his mouth at all.
+  blurb: Came down for a break and to have some fun. A pretty boy in his twenties who would rather let his instrument speak rather than open his mouth at all.
 
-- name: Mochizuki Karina
+- name: God of the Hunt
+  alias: Mochizuki Karina
   book: 11
   tags: divinity, brunhild
-  blurb: God of the Hunt. Came down for a break and to have some fun. A green-haird girl with a ponytail that enjoys hunting.
+  blurb: Came down for a break and to have some fun. A green-ponytailed girl that enjoys hunting.
 
-- name: Mochizuki Suika
+- name: God of Alcohol
+  alias: Mochizuki Suika
   book: 11
   tags: divinity, brunhild
-  blurb: God of Alcohol. Came down for a break and to have some fun, and so she drinks and drinks herself silly. Has the appearance of a young child.
+  blurb: Came down for a break and to have some fun, and so she drinks and drinks herself silly. Has the appearance of a young child.
 
 - name: Yula
   book: 11
@@ -1572,7 +1587,7 @@
 - name: Dyent South
   book: 12
   tags: human, paleriusIsland
-  blurb: One of the four High-Brothers of Palerius Island.
+  blurb: One of the four High-Brothers of Palerius Island. A large man.
 
 - name: Freyend South
   book: 12
@@ -1585,6 +1600,170 @@
   tags: human, partheno, deceased
   blurb: A great mage from Partheno that specialized in Spacetime magic and builder of the original gate to the Reverse World. Did his research in what would eventually become Palerius Island.
 
+- name: Mentor Central Palerius
+  book: 12
+  tags: human, paleriusIsland
+  blurb: The leader of Palerius Island. A woman in her thirties, with long wavy auburn hair.
+
+- name: Morgan East
+  book: 12
+  tags: human, paleriusIsland
+  blurb: One of the four High-Brothers of Palerius Island. An old gray-haired man.
+
+- name: Sagitta North
+  book: 12
+  tags: human, paleriusIsland
+  blurb: One of the four High-Brothers of Palerius Island. An young brown-haired man.
+
+- name: Millie West
+  book: 12
+  tags: human, paleriusIsland
+  blurb: One of the four High-Brothers of Palerius Island. A red-haired woman.
 
 
+- name: The Godbeast
+  book: 12
+  tags: divinity
+  blurb: >
+    A wolf-lion-like being, with a golden mane and coat of fur emitting a muddied radiance.
+    Created by the servile god as a weapon to wrestle the world from the World God's control.
+    Currently in cocoon while it evolves.
+
+
+
+
+
+
+
+- name: Pedro Sancho
+  book: 12
+  tags: reverseWorld, human, allent
+  blurb: A merchant from the reverse world and the first person Touya met on hist first trip there. A mustachioed older gentleman.
+
+- name: Mona
+  book: 12
+  tags: reverseWorld, human, allent
+  blurb: Pedro Sancho's wife.
+
+- name: Est Flotier
+  book: 12
+  tags: reverseWorld, human, redCats
+  blurb: Second in command of the Red Cats. Short red hair, sharp hazel eyes, looks combat-trained.
+
+- name: Euni
+  book: 12
+  tags: reverseWorld, human, redCats
+  blurb: A member of the Red Cats. A brown ponytailed girl, often seen with Est or Nia. Somewhat younger than Euri. 
+
+- name: Euri
+  book: 12
+  tags: reverseWorld, human, redCats
+  blurb: A member of the Red Cats. An auburn wavy-haired girl, often seen with Est or Nia. Looks about Touya's age. 
+
+- name: Akagane
+  book: 12
+  tags: reverseWorld, gollem
+  blurb: Est's Gollem. A huge hunk of a thing, doesn't talk.
+
+- name: Nia
+  book: 12
+  tags: reverseWorld, human, redCats, crownMaster
+  blurb: The boss of the Red Cats. Long red hair styled into pigtails. Wears a red jacket and shorts. Acts like a typical boisterous delinquent.
+
+- name: Elluka Patolakshe
+  book: 12
+  tags: reverseWorld, human
+  blurb: A Gollem Engineer and foremost Technologist of the reverse world. Long unkempt silver hair, thick round glasses.
+
+- name: Fenrir
+  book: 12
+  tags: reverseWorld, gollem
+  blurb: Elluka's Gollem. Looks just like a wolf but talks in a deep masculine voice.
+
+
+- name: Blood Rouge
+  book: 12
+  tags: reverseWorld, gollem, crownSeries
+  blurb: >
+    A crown series Gollem with a deep red color scheme. Its master is Nia.
+    @$13: A crown series Gollem with Nia for a master. A tiny clockwork knight, deep crimson red. Grants fire and power in exchange for the spilled blood of its master.
+
+
+
+
+- name: Lucienne Dia Palouf
+  book: 12
+  tags: palouf, human, royalty
+  blurb: Princess of Palouf. A calm and sweet girl, long and wavy blond hair and jade green eyes. Intends to marry Cloud.
+
+- name: Ernest Din Palouf
+  book: 12
+  tags: palouf, human, royalty
+  blurb: The newly ascended king of Palouf. A reserved, shy 10-year-old, and master shogi player.
+
+- name: Donovan Rembrandt
+  book: 12
+  tags: palouf, human, royalty
+  blurb: Duke regent. Younger brother of the former king of Palouf, and therefore Ernest and Lucienne's uncle. A calm-looking man in his fifties.
+
+- name: Rachael Rembrandt
+  book: 12
+  tags: palouf, human, royalty
+  blurb: Daughter of Donovan, and Ernest's fiancee. Resembles a younger Lucienne. A brash girl with heaps of talent.
+
+
+
+# BOOK 13
+
+
+- name: Polunga
+  book: 13
+  tags: arcanaClan, redFolk
+  blurb: Merchant of the Arcana Clan, one of the Red Folk. He dresses in gaudy red and is sort of reddish all over. Able to read the old language of his clan.
+
+
+
+
+- name: Ruby
+  book: 13
+  tags: reverseWorld, gollem, etoileSeries, brunhild
+  blurb: Ping. One of three Etoile-series Gollems bought by Touya. White with red highlights. Resembles a human child, but without any facial features.
+
+- name: Saph
+  book: 13
+  tags: reverseWorld, gollem, etoileSeries, brunhild
+  blurb: Pong. One of three Etoile-series Gollems bought by Touya. White with blue highlights. Resembles a human child, but without any facial features.
+
+- name: Emerl
+  book: 13
+  tags: reverseWorld, gollem, etoileSeries, brunhild
+  blurb: Pang. One of three Etoile-series Gollems bought by Touya. White with green highlights. Resembles a human child, but without any facial features.
+
+
+
+
+- name: Fanatic Viola
+  book: 13
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The Purple Crown, a crown series Gollem. Uses a scythe and wears a ragged black cape. Grants immortality in exchange for sanity.
+
+- name: Luna Trieste
+  alias: Frenzied Mistress
+  book: 13
+  tags: reverseWorld, gollem, crownMaster
+  blurb: This purple-haired gothic-styled girl formed a contract with the Purple Crown, turning her immortal but also deranged, depraved and violent.
+
+
+
+- name: Chrom Ranchesse
+  book: 13
+  tags: reverseWorld, human, deceased
+  blurb: Creator of the crown series Gollems. He lived during the reverse world's ancient civilization, and was apparently insane.
+
+
+
+- name: Shirogane
+  book: 13
+  tags: reverseWorld, dragon
+  blurb: An Ancient Silver Dragon from Drakliff Island on the Reverse World. Two hundred years ago he was attacked and injured by the Purple Crown, but Touya was able to heal him in the present. While in human form he resembles a young man with long, flowing silver hair.
 
