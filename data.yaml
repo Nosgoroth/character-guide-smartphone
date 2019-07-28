@@ -35,6 +35,7 @@
   alias: >
     @9: Shirogane
     @11: , Robin Loxley
+    @14: , Celestial Spirit King
   tags: human, earth, adventurer, brunhild@4, royalty@4, divinity@5
   blurb: >
     The main character. An easygoing guy that died and got reincarnated in another
@@ -817,12 +818,15 @@
   blurb: Flora. Terminal gynoid of the Alchemy Lab of Babylon, you see. Airframe number
     21. A pink-haired closet pervert.
 
-- name: Lars
+- name: >
+    Lars
+    @$14: Dark Spirit
   book: 5
-  tags: ramissh, spirit
-  blurb: Lars, the God of Light. Revered in the Ramissh Theocracy. Does not exist
-    as such; instead is a corrupted dark spirit summoned by Ramirez. Has passive brainwashing
-    powers.
+  tags: ramissh, spirit, pillarSpirit@14
+  blurb: >
+    Lars, the God of Light. Revered in the Ramissh Theocracy. Does not exist as such; instead is a corrupted dark spirit summoned by Ramirez. Has passive brainwashing powers.
+    @$14: A pillar spirit. Takes the form of an innocent young girl with a short bob of black hair and black eyes, dressed in a black one-piece dress.
+    Used to be trapped in the Ramissh Theocracy as a corrupted spirit with brainwashing powers summoned by Ramirez, where she was revered as Lars, the God of Light.
 
 - name: Elias Altra
   book: 5
@@ -1000,8 +1004,9 @@
 - name: Yamato Urnes Belfast
   book: 6
   tags: human, belfast, alephis, royalty
-  blurb: The just-born son of King Tristwin and Queen Yuel, Yumina's baby brother
-    and heir to the throne of Belfast. Touya is his godfather.
+  blurb: >
+    The just-born son of King Tristwin and Queen Yuel, Yumina's baby brother and heir to the throne of Belfast. Touya is his godfather.
+    @14: Was the unwitting host of the Sovereign Phrase Core, but it was successfully removed by Touy without consequence to Yamato.
 
 - name: Fleur
   book: 6
@@ -1252,16 +1257,23 @@
 - name: Ney
   book: 9
   tags: phrase
-  blurb: A Dominant Construct. Extremely antagonistic towards Ende, but familiar with Lycee.
+  blurb: >
+    A Dominant Construct. Extremely antagonistic towards Ende, but familiar with Lycee.
+    @$14: A Dominant Construct and leader of the Phrase faction that seeking to recover the Sovereign.
+    She has long, crystal hair, and deep crimson eyes, and is slender and tall.
+    Lycee's sister.
 
-- name: The Sovereign
+- name: >
+    The Sovereign
+    @$14: Melle
   book: 9
   tags: phrase
   blurb: >
-    The leader of the Phrase and the being they're looking for.
+    The Sovereign is the leader of the Phrase and the being they're looking for.
     @10:
     Essentially eloped with Endymion and went traveling with him through different worlds. Eventually, some of the other Phrase found the means to follow her, with multiple intents -- some to retrieve her, some to take her power.
     Her goal is to eventually reach the heights from where Endymion once came and hopefully acquire a method of becoming an existence like him.
+    @14: Her graceful form is adorned in a crystalline regal dress. Long hair and icy blue eyes.
 
 - name: Lycee
   book: 9
@@ -1272,6 +1284,11 @@
     A very beautiful Dominant Construct.
     Purely neutral in the Phrase conflict, merely wishes to observe the Sovereign and where her path takes her.
     Associated with Ende, and familiar with Ney.
+    @$10:
+    A very beautiful Dominant Construct.
+    Purely neutral in the Phrase conflict, merely wishes to observe the Sovereign and where her path takes her.
+    Accompanies Ende.
+    Ney's sister.
 
 - name: Spica Frennel
   book: 9
@@ -1432,9 +1449,10 @@
     Uncle of Second Prince Farese of Xenoahs and once poised for succession of the Arnos Merchant Corporation.
     Conspired with Yulong to have Sakura assassinated in exchange for black market deals.
 
-- name: D'Artagnan (Mr. Mittens)
+- name: D'Artagnan
+  alias: Mr. Mittens
   book: 10
-  tags: summonedBeast
+  tags: summonedBeast, brunhild
   blurb: >
     A Cat Sith summoned by Sakura and kept manifested with the assistance of Touya's magic.
     Pawsitively knightly towards women. Surprisingly reliable.
@@ -1750,7 +1768,7 @@
 - name: Luna Trieste
   alias: Frenzied Mistress
   book: 13
-  tags: reverseWorld, gollem, crownMaster
+  tags: reverseWorld, human, crownMaster
   blurb: This purple-haired gothic-styled girl formed a contract with the Purple Crown, turning her immortal but also deranged, depraved and violent.
 
 
@@ -1766,4 +1784,165 @@
   book: 13
   tags: reverseWorld, dragon
   blurb: An Ancient Silver Dragon from Drakliff Island on the Reverse World. Two hundred years ago he was attacked and injured by the Purple Crown, but Touya was able to heal him in the present. While in human form he resembles a young man with long, flowing silver hair.
+
+
+
+
+# BOOK 14
+
+
+- name: Prince of Panaches
+  book: 14
+  tags: reverseWorld, crownMaster, panaches
+  blurb: The prince of the Panaches kingdom, said to be master of a crown series Gollem.
+
+- name: Sand Spirit of Sandora
+  book: 14
+  tags: spirit, sandora
+  blurb: A spirit of sand that inhabits the desert of Sandora. Has the form of a woman with long, raven hair, and a dark tan.
+
+- name: Leto
+  book: 14
+  tags: phrase
+  blurb: Half of a twin-bodied Dominant Construct Phrase, together with Luto. A young woman with long bangs covering her right eye. Mutated with the muddied divinity of the Godbeast.
+
+- name: Luto
+  book: 14
+  tags: phrase
+  blurb: Half of a twin-bodied Dominant Construct Phrase, together with Leto. A young man with long bangs covering his left eye. Mutated with the muddied divinity of the Godbeast.
+
+- name: God of Destruction
+  book: 14
+  tags: divinity
+  blurb: >
+    The god tasked with destroying the worlds that are beyond saving.
+    Appears as around sixty years of age with a massive bulky body.
+    His eyes and shaggy hair are jet black, and his face is unshaven.
+
+- name: God of Battle
+  book: 14
+  tags: divinity
+  blurb: >
+    A god that favors fighting.
+
+- name: Iroha Massamune
+  book: 14
+  tags: human, eashen
+  blurb: >
+    Date Massamune's five-year old daughter. Glossy long black hair, impulsive and active. Friends with Sue.
+
+- name: Simmons
+  book: 14
+  tags: human, refreese
+  blurb: >
+    Second-in-command of the Refreese ship McClane when it was forcefully transported to the Reverse World. Had his memories of the event blurred out by Touya, along with the rest of the crew.
+
+- name: Zinc Spirit
+  book: 14
+  tags: spirit
+  blurb: A Minotaur-like spirit, dependent of the Earth Spirit. Punched by Touya.
+
+- name: Earth Spirit
+  book: 14
+  tags: spirit, pillarSpirit
+  blurb: A pillar spirit. His dependents call him "stone bro".
+
+- name: Storm Spirit
+  book: 14
+  tags: spirit
+  blurb: A dependent of the Wind pillar spirit. A shirtless, musclebound spirit that wears a turban and Arabian-esque pants. Wind calls him Stormy.
+
+- name: Wind Spirit
+  book: 14
+  tags: spirit, pillarSpirit
+  blurb: A pillar spirit. Clad in light green.
+
+- name: Water Spirit
+  book: 14
+  tags: spirit, pillarSpirit
+  blurb: A pillar spirit.
+
+- name: Light Spirit
+  book: 14
+  tags: spirit, pillarSpirit
+  blurb: A pillar spirit. Curly golden hair and bright smile.
+
+- name: Fire Spirit
+  book: 14
+  tags: spirit, pillarSpirit
+  blurb: A pillar spirit. Blazing red hair.
+
+- name: Every
+  book: 14
+  tags: reverseWorld, primula, human
+  blurb: Grand Chamberlain to King Primula. A very expressive, very rotund, broad-shouldered, bearded man.
+
+- name: Lerios Palerius
+  book: 14
+  tags: human, partheno, reverseWorld, primula
+  blurb: Alerius' second son and his assistant. He found himself in the reverse world, where he became founder and first king of Primula.
+
+- name: Ludios Primula Palerius
+  book: 14
+  tags: human, reverseWorld, primula, royalty
+  blurb: King of Primula, descendant of Lerios Palerius and a pretty cool guy. He has short brown hair and a very neat mustache flowing into a long beard.
+
+# Knight Captain of Primula, name not given. "The knight captain smacked his fist against the table. He was a grizzled looking man in his forties. His red hair was very apt for such a hothead.""
+
+
+- name: Beroah
+  book: 14
+  tags: human, reverseWorld, primula
+  blurb: The abnormally gaunt and thin prime minister of Primula.
+
+- name: Listis Le Triharan
+  alias: Listin La Triharan
+  book: 14
+  tags: human, reverseWorld, triharan, royalty
+  blurb: Second heir to Triharan. 19 yo woman, blonde. Publicly presents herself as male for political reasons.
+
+- name: Zerorick
+  book: 14
+  tags: human, reverseWorld, triharan
+  blurb: A top brass knight of Triharan and Listis' teacher.
+
+- name: Lala
+  book: 14
+  tags: human, reverseWorld, triharan
+  blurb: Listis' maid.
+
+- name: Lili
+  book: 14
+  tags: human, reverseWorld, triharan
+  blurb: Listis' maid.
+
+- name: Morlock Lapitos
+  book: 14
+  tags: human, reverseWorld, triharan
+  blurb: The corrupt, malicious and decrepit chairman of the senate of Triharan.
+
+- name: Holy Emperor of Triharan
+  book: 14
+  tags: human, reverseWorld, triharan, royalty
+  blurb: The academic-looking monarch of Triharan. White hair and a small white beard, with a pair of round glasses.
+
+- name: Lupheus Triharan
+  book: 14
+  tags: human, reverseWorld, triharan, royalty
+  blurb: First son of the Holy Emperor of Triharan.
+
+- name: Athos
+  book: 14
+  tags: summonedBeast, brunhild
+  blurb: A stoic and serious American shorthair Cat Sith summoned by Touya. Sociable but always alert.
+
+- name: Aramis
+  book: 14
+  tags: summonedBeast, brunhild
+  blurb: An elegant Siamese Cat Sith summoned by Touya. A huge flirt.
+
+- name: Porthos
+  book: 14
+  tags: summonedBeast, brunhild
+  blurb: A large, stocky Persian Cat Sith summoned by Touya. A glutton.
 
