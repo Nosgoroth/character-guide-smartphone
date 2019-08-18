@@ -36,6 +36,7 @@
     @9: Shirogane
     @11: , Robin Loxley
     @14: , Celestial Spirit King
+    @16: , Regin Leif
   tags: human, earth, adventurer, brunhild@4, royalty@4, divinity@5
   blurb: >
     The main character. An easygoing guy that died and got reincarnated in another
@@ -316,12 +317,16 @@
 - name: Ayane
   book: 3
   tags: human, eashen
-  blurb: A trusted servant of the Kokonoe family.
+  blurb: >
+    A trusted servant of the Kokonoe family.
+    @15: Now engaged to Jutaro.
 
 - name: Kokonoe Jutaro
   book: 3
   tags: human, eashen
-  blurb: Yae's older brother.
+  blurb: >
+    Yae's older brother.
+    @15: Engaged to Ayane.
 
 - name: Tokugawa Ieyahsu
   book: 3
@@ -1683,7 +1688,9 @@
   tags: reverseWorld, gollem
   blurb: Est's Gollem. A huge hunk of a thing, doesn't talk.
 
-- name: Nia
+- name: >
+    Nia
+    @$15: Nia
   book: 12
   tags: reverseWorld, human, redCats, crownMaster
   blurb: The boss of the Red Cats. Long red hair styled into pigtails. Wears a red jacket and shorts. Acts like a typical boisterous delinquent.
@@ -1791,10 +1798,14 @@
 # BOOK 14
 
 
-- name: Prince of Panaches
+- name: >
+    Prince of Panaches
+    @$15: Robert Tell Panaches.
   book: 14
   tags: reverseWorld, crownMaster, panaches
-  blurb: The prince of the Panaches kingdom, said to be master of a crown series Gollem.
+  blurb: >
+    The prince of the Panaches kingdom, said to be master of a crown series Gollem.
+    @$15: The prince of the Panaches kingdom, contractor of the Blue Crown, Distortion Blau. A pompous, exaggerated person resembling a prince out of a child's storybook.
 
 - name: Sand Spirit of Sandora
   book: 14
@@ -1819,11 +1830,16 @@
     Appears as around sixty years of age with a massive bulky body.
     His eyes and shaggy hair are jet black, and his face is unshaven.
 
-- name: God of Battle
+- name: >
+    God of Battle
+    @$15: God of Combat
+  alias: >
+    @$15: Mochizuki Takeru
   book: 14
-  tags: divinity
+  tags: divinity, brunhild@15
   blurb: >
     A god that favors fighting.
+    @15: Looks entirely like a martial artist. Took Ende as his disciple.
 
 - name: Iroha Massamune
   book: 14
@@ -1945,4 +1961,192 @@
   book: 14
   tags: summonedBeast, brunhild
   blurb: A large, stocky Persian Cat Sith summoned by Touya. A glutton.
+
+
+
+
+
+# BOOK 15
+
+- name: Totola Luphu
+  book: 15
+  tags: human, egret
+  blurb: An emmisary from Egret. Lilicala's brother.
+
+- name: Lilicala Luphu
+  book: 15
+  tags: human, egret
+  blurb: An emmisary from Egret. Totola's sister.
+
+- name: Locha Luphu
+  book: 15
+  tags: human, egret
+  blurb: An emmisary from Egret. Lilicala and Totola's cousin.
+
+- name: Lefang Letra
+  book: 15
+  tags: human, egret, royalty
+  blurb: The king of Egret. A man in his thirties with the look of a trained warrior.
+
+- name: Lelaure Cocha
+  book: 15
+  blurb: The parent of the king of Egret.
+
+- name: Shirahime
+  book: 15
+  tags: human, spirit, eashen, royalty
+  blurb: The mikado of Eashen. A gorgeous girl with skin and hair paler than snow, crimson eyes and two tiny horns. The daughter of a human and the Snow Spirit, she has presided over Eashen for over two millenia.
+
+- name: Distortion Blau
+  book: 15
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The Blue Crown, a crown series Gollem. Grants control over spatial distortions in exchange for consciousness.
+
+- name: Silhouette Lily
+  alias: Kageyuri
+  book: 15
+  tags: reverseWorld, human
+  blurb: The shrewd woman in charge of the Black Cats, previously Papillon's intelligence ops, including inns and brothers. The sexy older sister type.
+
+- name: Zabbit Grandt
+  book: 15
+  tags: reverseWorld, human
+  blurb: The cruel man heading Papillon's underground operations. Had a curse placed on him by Touya that would activate if he harassed Silhouette Lily or her subordinates.
+
+- name: Norn Patolakshe
+  book: 15
+  tags: reverseWorld, human, crownMaster
+  blurb: Elluka's younger sister and contractor of the Black Crown, Chronos Noir. Looks six or seven years old, but is actually fifteen.
+
+- name: Chronos Noir
+  book: 15
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The Black Crown, a crown series Gollem. Allows the user to pull things from parallel timelines in exchange for losing age.
+
+- name: Elfrau
+  book: 15
+  tags: reverseWorld, gollem@16
+  blurb: >
+    Frau. Norn Patolakshe's maid. Short violet hair.
+    @16: Actually a humanoid gollem. Designation GM-172.
+
+- name: Surugaya Ichinose
+  book: 15
+  tags: human, eashen
+  blurb: Successor to the Surugaya outlet. A nice guy, engaged to Ayane's sister.
+
+
+
+
+# BOOK 16
+
+
+- name: Dorf Landinner
+  alias: Colonel
+  book: 16
+  tags: human, lowe, reverseWorld
+  blurb: A grizzled combat veteran in his thirties. One of Lowe's Beast Generals. Contractor of Leopard.
+
+- name: Leopard
+  book: 16
+  tags: gollem, reverseWorld
+  blurb: One of Lowe's beast emperor Gollems.
+
+- name: First Lieutenant
+  book: 16
+  tags: human, lowe, reverseWorld
+  blurb: A dark-skinned woman in her twenties with long black hair. The name's an alias.
+
+- name: Sergeant
+  book: 16
+  tags: human, lowe, reverseWorld
+  blurb: A young-looking man with narrow eyes. The name's an alias.
+
+- name: Lucrecion Gran Lowe
+  alias: Lufredin Gran Lowe, Lucrecion Rig Gardio
+  book: 16
+  tags: human, lowe, gardio, reverseWorld, mysticEyes, royalty
+  blurb: The lost prince of Lowe, raised as the child of Gardio's emperor and empress, Falchion and Asteria. A well-poised young man with long brown hair. His mystic eye allows him to view the memories of objects. Was granted direct authority over the newly liberated territories of Lowe.
+
+- name: Maximilian Gran Lowe
+  book: 16
+  tags: human, lowe, gardio, reverseWorld, decesaed, royalty
+  blurb: The last king of Lowe before it fell to Gardio and Isengard. Lufredin's father.
+
+- name: Asteria Lim Gardio
+  book: 16
+  tags: human, gardio, reverseWorld, royalty
+  blurb: Empress of Gardio, Falchion's wife, and Lucrecion's non-biological mother.
+
+- name: Falchion Lig Gardio
+  book: 16
+  tags: human, gardio, reverseWorld, royalty
+  blurb: The emperor of Gardio, Lucrecion's non-biological father. Now retired.
+
+- name: Lancelo Alcott
+  book: 16
+  tags: human, gardio, reverseWorld
+  blurb: Prime minister of Gardio and the man who found Lufredin.
+
+- name: Lancelet Rig Gardio
+  alias: Lancelet Olcott
+  book: 16
+  tags: human, gardio, reverseWorld, royalty
+  blurb: The new emperor of Gardio. Son of Lancelo Olcott.
+
+- name: Gien Greed
+  book: 16
+  tags: human, gardio, reverseWorld
+  blurb: The Beast General that betrayed Lowe. A bookworm-looking guy in his thirties. Used to be Dorf's teacher in the ways of the sword.
+
+- name: Glaux
+  book: 16
+  tags: gollem, reverseWorld
+  blurb: One of Lowe's beast emperor Gollems. Looks humanoid with the head of an owl.
+
+- name: Gibram Thine Isengard
+  alias: Witch-King
+  book: 16
+  tags: human, isengard, reverseWorld, royalty
+  blurb: The emperor of Isengard and a master of magitechnology. A crazy old man that transplanted his brain to an ancient massive Gollem, the Hecatoncheir. After his defeat he is now in the custody of Gardio, as a brain in a jar.
+
+- name: Edward Urnes Ortlinde
+  book: 16
+  tags: human, belfast, alephis, royalty
+  blurb: Son of Alfred and Ellen Ortlinde, and Sue's younger brother. Named after his grandfather.
+
+- name: Edward
+  book: 16
+  tags: human, deceased
+  blurb: Father of Ellen Ernea Ortlinde. He possessed the Null spell Recovery.
+
+- name: Mew
+  book: 16
+  tags: beastman, adventurer
+  blurb: A stoic catgirl in her early twenties with short black hair. Her tail is tipped with white. An agile fighter.
+
+- name: Garron
+  book: 16
+  tags: human, adventurer
+  blurb: A brash and impulsive red-haired warrior. Close to thirty.
+
+- name: Rose
+  book: 16
+  tags: human, adventurer
+  blurb: A busty tattooed girl that uses a whip.
+
+- name: Abert
+  book: 16
+  tags: human, adventurer
+  blurb: A young man with long brown hair. The patient and methodical type.
+
+- name: Dom
+  book: 16
+  tags: dwarf, adventurer
+  blurb: A rough dwarf with a rough accent.
+
+- name: Surges Partes
+  book: 16
+  tags: human, adventurer
+  blurb: A stern and serious mage. In his late twenties.
 
