@@ -481,8 +481,10 @@
 
 - name: >
     Ende
-    @9: (Endymion)
-    @$10: Endymion (Ende)
+    @$10: Endymion
+  alias: >
+    @$9: Endymion
+    @$10: Ende
   book: 3
   tags: adventurer, partheno@5, drifter
   blurb: >
@@ -2070,7 +2072,7 @@
 
 - name: Maximilian Gran Lowe
   book: 16
-  tags: human, lowe, gardio, reverseWorld, decesaed, royalty
+  tags: human, lowe, gardio, reverseWorld, deceased, royalty
   blurb: The last king of Lowe before it fell to Gardio and Isengard. Lufredin's father.
 
 - name: Asteria Lim Gardio
@@ -2096,7 +2098,7 @@
 
 - name: Gien Greed
   book: 16
-  tags: human, gardio, reverseWorld
+  tags: human, lowe, isengard, reverseWorld
   blurb: The Beast General that betrayed Lowe. A bookworm-looking guy in his thirties. Used to be Dorf's teacher in the ways of the sword.
 
 - name: Glaux
@@ -2149,4 +2151,42 @@
   book: 16
   tags: human, adventurer
   blurb: A stern and serious mage. In his late twenties.
+
+
+
+
+# BOOK 17
+
+
+- name: Franz Icemann
+  book: 17
+  tags: human, lestia
+  blurb: Vice-commander of Lestia's kiught order. An older gentleman.
+
+
+- name: Shade
+  book: 17
+  tags: reverseWorld, summonedBeast
+  blurb: A black panther summoned by Silhouette Lily. Can use electricity.
+
+- name: Margarita Twente Strain
+  book: 17
+  tags: human, reverseWorld, strain, royalty
+  blurb: The queen of Strain. 
+
+
+- name: Fizz
+  book: 17
+  tags: human, reverseWorld, allent
+  blurb: Nina's daughter. An energetic girl that cares a lot about her mom and her restaurant.
+
+- name: Nina
+  book: 17
+  tags: human, reverseWorld, allent
+  blurb: Fizz's mother. Owner of a restaurant by the name of The Little Rabbit.
+
+- name: Hogsworth von Buffett
+  book: 17
+  tags: human, reverseWorld, allent
+  blurb: Owner of the Golden Pig, a ripoff of a restaurant managed with underhanded ways.
 
