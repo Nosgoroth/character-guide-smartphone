@@ -170,6 +170,7 @@
     Regal and dignified.
     @3: Engaged to Touya.
     @12: Pilots the Frame Gear Brunnhilde.
+    @17: Her divine skill is premonition.
 
 - name: Tristwin Ernes Belfast
   tags: human, belfast, alephis, royalty
@@ -1051,6 +1052,7 @@
     @10: Actually the missing princess of Xenoahs.
     Engaged to Touya.
     @12: Pilots the Frame Gear Rossweisse.
+    @17: Her divine skill is ultra hearing.
 
 
 - name: Hildegard Minas Lestia
@@ -1344,7 +1346,7 @@
 
 - name: Boulanger Frost Felsen
   book: 9
-  tags: human, felsen
+  tags: human, felsen, royalty
   blurb: >
     The King of Felsen.
     An affable burly guy that will nerd out over weapons with a history at the drop of a hat.
@@ -2170,10 +2172,19 @@
   blurb: A black panther summoned by Silhouette Lily. Can use electricity.
 
 
+
+
 - name: Margarita Twente Strain
   book: 17
   tags: human, reverseWorld, strain, royalty
   blurb: The queen of Strain. 
+
+- name: Berlietta Strain
+  book: 17
+  tags: human, reverseWorld, royalty, strain
+  blurb: Berl. Princess of Strain. A magitechnology enthusiast.
+
+
 
 
 - name: Fizz
@@ -2193,41 +2204,62 @@
 
 
 
-#- name: (King of Horn)
-#  book: 17
-#  tags: horn, human, deceased, reverseWorld, royalty
-#  blurb: A traditionalist, often clashed with his son on policy.
-
-#- name: (Crown prince of Horn)
-#  book: 17
-#  tags: horn, human, deceased, reverseWorld, royalty
-#  blurb: Said to often clash with his father on policy
 
 
-- name: Schwein
+
+- name: Griff
   book: 17
-  tags: horn, human, reverseWorld
-  blurb: Prime minister of Horn and father of the late prince's wife. Currently acting regent. Accused the late king's brother of conspiring to usurp the throne.
+  tags: dwarf
+  blurb: The leader of the dwarven craftsmen that built the Ether Vehicle
+
+
+
+
+- name: Tonam Da Horn
+  book: 17
+  tags: horn, human, deceased, royalty
+  blurb: The late king of Horn. A traditionalist, often clashed with his son on policy.
+
+- name: Kamra Da Horn
+  book: 17
+  tags: horn, human, deceased, royalty
+  blurb: The late prince of Horn, son of Tonam, father of Kuoh.Said to often clash with his father on policy
+
+- name: Schwein Adante
+  book: 17
+  tags: horn, human
+  blurb: Prime minister of Horn and father of the late prince's wife. Around 70 years of age. Currently acting regent. Accused the late king's brother of conspiring to usurp the throne.
 
 - name: Kuoh Da Horn
   book: 17
-  tags: horn, human, reverseWorld, royalty
-  blurb: Grandson of the late king of Horn. 1 year old.
-
+  tags: horn, human, royalty
+  blurb: Grandson of the late king of Horn. 1 year old and therefore unable to inherit the throne.
 
 - name: Ganossa Da Horn
   book: 17
-  tags: horn, human, reverseWorld, royalty
-  blurb: Younger brother of the late king of Horn. Accused the prime minister of conspiring to usurp the throne.
+  tags: horn, human, royalty
+  blurb: Younger brother of the late king of Horn, Tonam. Accused the prime minister of conspiring to usurp the throne.
 
-
-
-
-- name: Berlietta Strain
+- name: Tauren Hanoi
   book: 17
-  tags: human, reverseWorld, royalty, strain
-  blurb: Berl. Princess of Strain.
+  tags: horn, human, deceased
+  blurb: The east sea marquis, one of the Four Grand Marquis of Horn. Looks like a typical civil servant with sharp eyes.
+
+- name: Nabyteo Schellmin
+  book: 17
+  tags: horn, human, deceased
+  blurb: The south spring marquis, one of the Four Grand Marquis of Horn. A sweaty chubby man.
+
+- name: Hawkes Manius
+  book: 17
+  tags: horn, human
+  blurb: The north mountain marquis, one of the Four Grand Marquis of Horn. A quiet older man.
+
+- name: Seylia Swill
+  book: 17
+  tags: horn, human
+  blurb: The west forest marquis, one of the Four Grand Marquis of Horn. A forceful-looking young woman.
 
 
 
-
+  
