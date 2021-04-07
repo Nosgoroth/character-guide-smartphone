@@ -1941,7 +1941,9 @@
   tags: human, reverseWorld, triharan
   blurb: The corrupt, malicious and decrepit chairman of the senate of Triharan.
 
-- name: Holy Emperor of Triharan @$17: Harold La Triharan
+- name: >
+    Holy Emperor of Triharan
+    @$17: Harold La Triharan
   book: 14
   tags: human, reverseWorld, triharan, royalty
   blurb: The academic-looking monarch of Triharan. White hair and a small white beard, with a pair of round glasses.
@@ -1949,7 +1951,9 @@
 - name: Lupheus La Triharan
   book: 14
   tags: human, reverseWorld, triharan, royalty
-  blurb: First son of the Holy Emperor of Triharan. @17: Into magitechnology and gollems.
+  blurb: >
+    First son of the Holy Emperor of Triharan.
+    @17: Into magitechnology and gollems.
 
 - name: Athos
   book: 14
@@ -2262,4 +2266,3 @@
 
 
 
-  
