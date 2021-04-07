@@ -1939,15 +1939,15 @@
   tags: human, reverseWorld, triharan
   blurb: The corrupt, malicious and decrepit chairman of the senate of Triharan.
 
-- name: Holy Emperor of Triharan
+- name: Holy Emperor of Triharan @$17: Harold La Triharan
   book: 14
   tags: human, reverseWorld, triharan, royalty
   blurb: The academic-looking monarch of Triharan. White hair and a small white beard, with a pair of round glasses.
 
-- name: Lupheus Triharan
+- name: Lupheus La Triharan
   book: 14
   tags: human, reverseWorld, triharan, royalty
-  blurb: First son of the Holy Emperor of Triharan.
+  blurb: First son of the Holy Emperor of Triharan. @17: Into magitechnology and gollems.
 
 - name: Athos
   book: 14
@@ -2169,6 +2169,7 @@
   tags: reverseWorld, summonedBeast
   blurb: A black panther summoned by Silhouette Lily. Can use electricity.
 
+
 - name: Margarita Twente Strain
   book: 17
   tags: human, reverseWorld, strain, royalty
@@ -2188,5 +2189,45 @@
 - name: Hogsworth von Buffett
   book: 17
   tags: human, reverseWorld, allent
-  blurb: Owner of the Golden Pig, a ripoff of a restaurant managed with underhanded ways.
+  blurb: Owner of the Golden Pig, a ripoff of a restaurant managed in underhanded ways.
+
+
+
+#- name: (King of Horn)
+#  book: 17
+#  tags: horn, human, deceased, reverseWorld, royalty
+#  blurb: A traditionalist, often clashed with his son on policy.
+
+#- name: (Crown prince of Horn)
+#  book: 17
+#  tags: horn, human, deceased, reverseWorld, royalty
+#  blurb: Said to often clash with his father on policy
+
+
+- name: Schwein
+  book: 17
+  tags: horn, human, reverseWorld
+  blurb: Prime minister of Horn and father of the late prince's wife. Currently acting regent. Accused the late king's brother of conspiring to usurp the throne.
+
+- name: Kuoh Da Horn
+  book: 17
+  tags: horn, human, reverseWorld, royalty
+  blurb: Grandson of the late king of Horn. 1 year old.
+
+
+- name: Ganossa Da Horn
+  book: 17
+  tags: horn, human, reverseWorld, royalty
+  blurb: Younger brother of the late king of Horn. Accused the prime minister of conspiring to usurp the throne.
+
+
+
+
+- name: Berlietta Strain
+  book: 17
+  tags: human, reverseWorld, royalty, strain
+  blurb: Berl. Princess of Strain.
+
+
+
 
