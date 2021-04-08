@@ -172,6 +172,8 @@
     @12: Pilots the Frame Gear Brunnhilde.
     @17: Her divine skill is premonition.
 
+# Deliberately not adding the tag crownMaster@18 since she's a submaster
+
 - name: Tristwin Ernes Belfast
   tags: human, belfast, alephis, royalty
   blurb: The king of Belfast and Yumina's father.
@@ -1707,7 +1709,9 @@
 - name: Fenrir
   book: 12
   tags: reverseWorld, gollem
-  blurb: Elluka's Gollem. Looks just like a wolf but talks in a deep masculine voice.
+  blurb: >
+    Elluka's Gollem. Looks just like a wolf but talks in a deep masculine voice.
+    @18: Big brother to Anubis and Bastet.
 
 
 - name: Blood Rouge
@@ -1804,12 +1808,13 @@
 
 - name: >
     Prince of Panaches
-    @$15: Robert Tell Panaches.
+    @$15: Robert Tell Panaches
   book: 14
   tags: reverseWorld, crownMaster, panaches
   blurb: >
     The prince of the Panaches kingdom, said to be master of a crown series Gollem.
     @$15: The prince of the Panaches kingdom, contractor of the Blue Crown, Distortion Blau. A pompous, exaggerated person resembling a prince out of a child's storybook.
+    @18: Engaged to Cerestia.
 
 - name: Sand Spirit of Sandora
   book: 14
@@ -1818,12 +1823,12 @@
 
 - name: Leto
   book: 14
-  tags: phrase
+  tags: phrase, deceased@18
   blurb: Half of a twin-bodied Dominant Construct Phrase, together with Luto. A young woman with long bangs covering her right eye. Mutated with the muddied divinity of the Godbeast.
 
 - name: Luto
   book: 14
-  tags: phrase
+  tags: phrase, deceased@18
   blurb: Half of a twin-bodied Dominant Construct Phrase, together with Leto. A young man with long bangs covering his left eye. Mutated with the muddied divinity of the Godbeast.
 
 - name: God of Destruction
@@ -2167,7 +2172,7 @@
 - name: Franz Icemann
   book: 17
   tags: human, lestia
-  blurb: Vice-commander of Lestia's kiught order. An older gentleman.
+  blurb: Vice-commander of Lestia's knight order. An older gentleman.
 
 
 - name: Shade
@@ -2263,6 +2268,82 @@
   book: 17
   tags: horn, human
   blurb: The west forest marquis, one of the Four Grand Marquis of Horn. A forceful-looking young woman.
+
+
+
+
+
+
+# Book 18
+
+- name: Anubis
+  book: 18
+  tags: reverseWorld, gollem
+  blurb: A Gollem geared towards espionage. A talking dog. Little brother to Bastet and Fenrir.
+
+- name: Bastet
+  book: 18
+  tags: reverseWorld, gollem
+  blurb: A Gollem geared towards espionage. A talking cat. Big sister to Anubis, little sister to Fenrir.
+
+
+
+
+- name: Rabert Tell Panaches
+  book: 18
+  tags: human, reverseWorld, panaches, royalty
+  blurb: King of Panaches. A good natured, white-bearded old man.
+
+
+
+
+
+- name: Cerestia Twente Hernandez
+  book: 18
+  tags: human, reverseWorld, strain, royalty
+  blurb: Ceres. Niece of the queen of Strain, and fiancee of the prince of Panaches, Robert.
+
+
+- name: Zanbelt Gal Lassei
+  book: 18
+  tags: dragonkin, lassei, reverseWorld, royalty
+  blurb: Second prince of Lassei. A proud meathead.
+
+- name: Gimlet Gal Lassei
+  book: 18
+  tags: dragonkin, lassei, reverseWorld, royalty
+  blurb: Grand Potentate of Lassei. A meathead.
+
+- name: Claudia Mira Helgaia
+  book: 18
+  tags: vampire, royalty, helgaia, reverseWorld
+  blurb: Wife of the Archfiend of Helgaia.
+
+- name: Aluford Culhat Helgaia
+  book: 18
+  tags: vampire, royalty, helgaia, reverseWorld
+  blurb: Archfiend of Helgaia.
+
+
+
+- name: Graud Zeth Allent
+  book: 18
+  tags: human, royalty, reverseWorld, allent
+  blurb: The Pontifex of Allent. A white-bearded burly man that worships the spirits.
+
+
+
+- name: Illuminati Albus
+  book: 18
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The White Crown, a crown series Gollem. Can interfere with causality to prevent an effect by erasing the cause.
+
+
+- name: Arthur Ernes Belfast
+  book: 18
+  tags: human, crownMaster, belfast, royalty, deceased
+  blurb: A king of the Belfast of old, around a thousand years in the past. Was master to Albus and Noir.
+  
 
 
 
