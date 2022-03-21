@@ -54,6 +54,13 @@
   tags: divinity
   blurb: Touya's affable divine benefactor. He enjoys tea and cookies.
 
+- name: >
+    Touya's Grandfather
+    @$24: Kuon
+  book: 1
+  tags: human, earth, deceased
+  blurb: Touya's grandfather on his mother's side, and a big influence on his way of thinking.
+
 - name: Zanac Zenfield
   tags: human, reflet, belfast
   blurb: >
@@ -69,17 +76,33 @@
 - name: Elze Silhoueska
   tags: human, adventurer, belfast, wives@3, brunhild@4
   blurb: >
-    Linze's twin sister. An adventurer that excels at physical combat. Bold and outgoing.
+    Linze's twin sister. An adventurer that excels at physical combat.
+    Bold and outgoing.
     @3: Engaged to Touya.
     @9: Pilots the Frame Gear Gerhilde.
+    @20: Her divine skill allows her to cloak herself in divinity for a massivee power boost.
+    @$21:
+    Linze's twin sister and one of Touya's wives.
+    An adventurer that excels at physical combat. Bold and outgoing.
+    Pilots the Frame Gear Gerhilde.
+    Her divine skill allows her to cloak herself in divinity for a massivee power boost.
 
 - name: Linze Silhoueska
+  alias: >
+    @23: Linlin
   tags: human, adventurer, belfast, wives@3, brunhild@4
   blurb: >
     Elze's twin sister. An adventurer that excels at magical combat.
     Shy and reserved.
     @3: Engaged to Touya.
     @11: Pilots the Frame Gear Helmwige.
+    @$21:
+    Elze's twin sister and one of Touya's wives.
+    An adventurer that excels at magical combat.
+    Shy and reserved.
+    Pilots the Frame Gear Helmwige.
+    @22: Her divine skill is rapid sewing.
+
 
 - name: Barral
   tags: beastman, reflet, belfast
@@ -91,6 +114,12 @@
     A swordswoman from the Far East, she is. Refined and kind.
     @3: Engaged to Touya.
     @9: Pilots the Frame Gear Schwertleite.
+    @$21:
+    A swordswoman from the Far East, she is.
+    One of Touya's wives.
+    Refined and kind.
+    Pilots the Frame Gear Schwertleite.
+
 
 - name: Sushie Urnea Ortlinde
   tags: human, belfast, alephis, royalty, wives@6
@@ -98,6 +127,10 @@
     Sue. Daughter of Duke Alfred of Belfast. Precocious and energetic.
     @6: Engaged to Touya.
     @10: Pilots the Frame Gear Ortlinde.
+    @$21:
+    Sue. Daughter of Duke Alfred of Belfast and one of Touya's wives.
+    Precocious and energetic.
+    Pilots the Frame Gear Ortlinde.
 
 - name: Leim
   tags: human, belfast, alephis
@@ -171,6 +204,12 @@
     @3: Engaged to Touya.
     @12: Pilots the Frame Gear Brunnhilde.
     @17: Her divine skill is premonition.
+    @$21:
+    First Princess of Belfast and one of Touya's wives.
+    Her eyes can discern the quality of a person.
+    Regal and dignified.
+    Pilots the Frame Gear Brunnhilde.
+    Her divine skill is premonition.
 
 # Deliberately not adding the tag crownMaster@18 since she's a submaster
 
@@ -300,6 +339,12 @@
     @4: Then, Mismedian ambassador to Brunhild.
     @8: Then, Brunhild's Court Magician and engaged to Touya.
     @11: Pilots the Frame Gear Grimgerde.
+    @20: Her divine skill is an appraising gaze for magic tools.
+    @$21:
+    Clan Matriarch of all fairies, Brunhild's Court Magician and one of Touya's wives.
+    Is at least six centuries old despite looking to be in her early teens.
+    Pilots the Frame Gear Grimgerde.
+    Her divine skill is an appraising gaze for magic tools.
 
 - name: Renne
   book: 2
@@ -410,7 +455,7 @@
 
 - name: >
     Hashiba Chikuzen no Kami Hideyooshi
-    @$9: Servile God
+    @$9: NEET God
   alias: >
     @$9: Hashiba Chikuzen no Kami Hideyooshi
   book: 3
@@ -423,6 +468,7 @@
     On the run.
     @11: Made contact with the Phrase Dominant Construct Yula.
     @12: Was consumed by his creation, the Godbeast.
+    @19: Emerged from the Godbeast's damaged body and was finally completely killed off by Touya.
 
 - name: Oda Nohbunaga
   book: 3
@@ -465,6 +511,8 @@
     emotionless dirty joker.
 
 - name: Regina Babylon
+  alias: >
+    @22: Reginabyln
   book: 3
   tags: partheno, babylon, gynoid@10
   blurb: >
@@ -658,6 +706,12 @@
     Lu. The third princess of the Regulus Empire. Expressive and sweet.
     Engaged to Touya.
     @12: Pilots the Frame Gear Waltraute.
+    @19: Her divine skill is a heightened sense of taste.
+    @$21:
+    Lu. The third princess of the Regulus Empire and one of Touya's wives.
+    Expressive and sweet.
+    Pilots the Frame Gear Waltraute.
+    Her divine skill is a heightened sense of taste.
 
 - name: Zephyrus Roa Regulus
   book: 4
@@ -725,7 +779,9 @@
   tags: human, regulus
   blurb: Renne's grandmother.
 
-- name: 'Living portrait frame @$5: Ripple'
+- name: >
+    Living portrait frame
+    @$5: Ripple
   book: 4
   tags: human, regulus, brunhild
   blurb: >
@@ -737,7 +793,7 @@
 
 - name: >
     Norn
-    @11: Siberia
+    @11: Nore
   book: 4
   tags: beastman, brunhild
   blurb: >
@@ -786,7 +842,9 @@
   tags: human, refreese, royalty
   blurb: Empress of Refreese.
 
-- name: Redis Refreese
+- name: >
+    Redis Refreese
+    @$22: Redis Rick Refreese
   book: 5
   tags: human, refreese, royalty
   blurb: Crown Prince of Refreese. Twelve years old, but mature for his age.
@@ -806,7 +864,9 @@
   tags: beastman, mismede, royalty
   blurb: Second Prince of Mismede.
 
-- name: Thea
+- name: >
+    Thea
+    @$22: Thea Frau Mismede
   book: 5
   tags: beastman, mismede, royalty
   blurb: First Princess of Mismede.
@@ -1055,6 +1115,11 @@
     Engaged to Touya.
     @12: Pilots the Frame Gear Rossweisse.
     @17: Her divine skill is ultra hearing.
+    @$21:
+    An illegitimate princess of Xenoahs and one of Touya's wives.
+    Quiet and peculiar.
+    Pilots the Frame Gear Rossweisse.
+    Her divine skill is ultra hearing.
 
 
 - name: Hildegard Minas Lestia
@@ -1064,6 +1129,10 @@
     First Princess of Lestia's Knight Kingdom. Resolute and loyal.
     @7: Engaged to Touya.
     @9: Pilots the Frame Gear Siegrune.
+    @$21:
+    First Princess of Lestia's Knight Kingdom and one of Touya's wives.
+    Resolute and loyal.
+    Pilots the Frame Gear Siegrune.
 
 - name: Preliora
   book: 6
@@ -1136,7 +1205,9 @@
 - name: Shouko
   book: 7
   tags: human, earth
-  blurb: Touya's first love.
+  blurb: >
+    Touya's first love.
+    @21: Lived next door.
 
 - name: Lushade
   book: 8
@@ -1576,7 +1647,7 @@
   alias: Mochizuki Kousuke
   book: 11
   tags: divinity, brunhild
-  blurb: Came down for a break and to have some fun. A simple man that enjoys working the earth. 
+  blurb: Came down for a break and to have some fun. A simple man that enjoys working the earth.
 
 - name: God of Music
   alias: Mochizuki Sousuke
@@ -1598,8 +1669,8 @@
 
 - name: Yula
   book: 11
-  tags: phrase
-  blurb: A Dominant Construct with a desire for absolute dominance over everything, he seeked divinity in order to obtain power.
+  tags: phrase, deceased@19
+  blurb: A Dominant Construct with a desire for absolute dominance over everything. He seeked divinity in order to obtain power.
 
 - name: Abdul Djerba Sandora III
   book: 11
@@ -1682,12 +1753,12 @@
 - name: Euni
   book: 12
   tags: reverseWorld, human, redCats
-  blurb: A member of the Red Cats. A brown ponytailed girl, often seen with Est or Nia. Somewhat younger than Euri. 
+  blurb: A member of the Red Cats. A brown ponytailed girl, often seen with Est or Nia. Somewhat younger than Euri.
 
 - name: Euri
   book: 12
   tags: reverseWorld, human, redCats
-  blurb: A member of the Red Cats. An auburn wavy-haired girl, often seen with Est or Nia. Looks about Touya's age. 
+  blurb: A member of the Red Cats. An auburn wavy-haired girl, often seen with Est or Nia. Looks about Touya's age.
 
 - name: Akagane
   book: 12
@@ -1696,7 +1767,7 @@
 
 - name: >
     Nia
-    @$15: Nia
+    @$15: Nia Belmot
   book: 12
   tags: reverseWorld, human, redCats, crownMaster
   blurb: The boss of the Red Cats. Long red hair styled into pigtails. Wears a red jacket and shorts. Acts like a typical boisterous delinquent.
@@ -2010,6 +2081,11 @@
   tags: human, spirit, eashen, royalty
   blurb: The mikado of Eashen. A gorgeous girl with skin and hair paler than snow, crimson eyes and two tiny horns. The daughter of a human and the Snow Spirit, she has presided over Eashen for over two millenia.
 
+- name: Snow Spirit
+  book: 15
+  tags: spirit
+  blurb: Once Shirahime's mother, she has since been reborn with a new conscience.
+
 - name: Distortion Blau
   book: 15
   tags: reverseWorld, gollem, crownSeries
@@ -2123,12 +2199,14 @@
   tags: human, isengard, reverseWorld, royalty
   blurb: The emperor of Isengard and a master of magitechnology. A crazy old man that transplanted his brain to an ancient massive Gollem, the Hecatoncheir. After his defeat he is now in the custody of Gardio, as a brain in a jar.
 
-- name: Edward Urnes Ortlinde
+- name: Edoward Urnes Ortlinde
+  alias: Edward
   book: 16
   tags: human, belfast, alephis, royalty
-  blurb: Son of Alfred and Ellen Ortlinde, and Sue's younger brother. Named after his grandfather.
+  blurb: Edo. Son of Alfred and Ellen Ortlinde, and Sue's younger brother. Named after his grandfather.
 
-- name: Edward
+- name: Edoward
+  alias: Edward
   book: 16
   tags: human, deceased
   blurb: Father of Ellen Ernea Ortlinde. He possessed the Null spell Recovery.
@@ -2186,7 +2264,7 @@
 - name: Margarita Twente Strain
   book: 17
   tags: human, reverseWorld, strain, royalty
-  blurb: The queen of Strain. 
+  blurb: The queen of Strain.
 
 - name: Berlietta Strain
   book: 17
@@ -2343,7 +2421,431 @@
   book: 18
   tags: human, crownMaster, belfast, royalty, deceased
   blurb: A king of the Belfast of old, around a thousand years in the past. Was master to Albus and Noir.
-  
 
+
+
+# Book 19
+
+
+
+- name: Flame Spirit
+  book: 19
+  tags: spirit
+  blurb: Direct second to the Fire Spirit. A tomboyish and energetic girl with short hair.
+
+- name: Ice Spirit
+  book: 19
+  tags: spirit
+  blurb: Direct second to the Water Spirit and a sister to the Snow Spirit.
+
+- name: Gay Unicorn
+  book: 19
+  tags: unicorn
+  blurb: A caustic, rude, self-centered, womanizer unicorn whose repressed sexuality awakened forcefully when he was forced to spend three days with three burly spirits.
+
+- name: Grand Grun
+  book: 19
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The Green Crown, a crown series Gollem. Owned by Rhea, the Kingdom of Elves.
+
+- name: Xeno
+  book: 19
+  tags: phrase, deceased@19
+  blurb: A Dominant Construct that desired battle above all. He was the General of Phrasia's forces.
+
+
+
+# Book 20
+
+
+
+- name: Shuraf Sikes
+  book: 20
+  tags: human, reverseWorld, dauburn
+  blurb: A priest from Dauburn that lived long ago. He wrote a book titled "Shuraf's Encounters" that chronicled the truth of the conflict between Dauburn and Zadonia.
+
+- name: Glenn
+  book: 20
+  tags: human, reverseWorld, dauburn
+  blurb: General of Dauburn's principal army.
+
+- name: Rosso Phoenix
+  book: 20
+  tags: human, reverseWorld, dauburn
+  blurb: Prime minister of Dauburn.
+
+- name: Jarahade Bier Dauburn
+  book: 20
+  tags: human, reverseWorld, dauburn, royalty
+  blurb: King of Dauburn. A portly man filled with nothing but hatred for Zidonia. Eventually abdicated in favor of Prince Hakim after Touya's intervention.
+
+- name: Hakim Dauburn
+  book: 20
+  tags: human, reverseWorld, dauburn, royalty
+  blurb: Prince of Dauburn, then king after his father's abdication.
+
+- name: Frost Zadonia
+  book: 20
+  tags: human, reverseWorld, zadonia, royalty
+  blurb: Prince of Zadonia, then king after his father's abdication.
+
+- name: Coldie
+  book: 20
+  tags: human, reverseWorld, zadonia
+  blurb: Prince Frost's personal knight. Despite his calm demeanor, a brutal swordsman known as Zadonia's Shiverblade.
+
+- name: Junas Lem Zadonia
+  book: 20
+  tags: human, reverseWorld, zadonia, royalty
+  blurb: King of Zadonia. A portly man filled with nothing but hatred for Dauburn. Eventually abdicated in favor of Prince Frost after Touya's intervention.
+
+- name: Ariattie Tis Allent
+  alias: Ariatte
+  book: 20
+  tags: human, reverseWorld, allent, royalty
+  blurb: Aria. A daughter of Allent's crown prince. A well-endowed eighteen year old with wavy golden hair and a gentle demeanor.
+
+- name: Leticia
+  book: 20
+  tags: human, reverseWorld, allent, royalty
+  blurb: Leti. A daughter of Allent's crown prince. An energetic seventeen year old with short golden hair.
+
+- name: Darlwein
+  book: 20
+  tags: human, regulus
+  blurb: An Earl from Regulus. Distantly related to the royal family, he was invited to Touya's wedding.
+
+- name: Pollon
+  book: 20
+  tags: human, lestia
+  blurb: A minister in charge of the finances of Lestia. Invited to Touya's wedding.
+
+- name: God of Flight
+  book: 20
+  tags: divinity
+  blurb: A god in the form of a sparrow.
+
+- name: God of Strength
+  alias: >
+    @24: Full Power
+  book: 20
+  tags: divinity
+  blurb: A god that appears as a monstruosly massive man. Fond of posing as a bodybuilder.
+
+- name: God of Spacetime
+  alias: Mochizuki Tokie
+  book: 20
+  tags: divinity, brunhild
+  blurb: God of Spacetime and a beneficiary of the World God. Currently staying in Brunhild Castle as Touya's grandmother.
+
+- name: Faro Jantje
+  book: 20
+  tags: human, nokia
+  blurb: A diplomat from Nokia.
+
+- name: Lycia
+  book: 20
+  tags: human, nokia
+  blurb: Pafia's attendant.
+
+- name: Pafia Lada Nokia
+  book: 20
+  tags: human, nokia, royalty
+  blurb: Nokia's second princess. Escaped the country to obtain Brunhild's help.
+
+- name: Luhm Ladeux Nokia
+  book: 20
+  tags: human, nokia, royalty
+  blurb: King of Nokia.
+
+- name: Lefia Nokia
+  book: 20
+  tags: human, nokia, royalty
+  blurb: Nokia's first princess.
+
+- name: Dryfe Chyomah
+  book: 20
+  tags: human, nokia
+  blurb: Ambassador of Nokia. A kind man that was possessed by Iptimus.
+
+- name: Caezar Nortelis
+  book: 20
+  tags: human, nokia, deceased
+  blurb: A common soldier of Nokia, afterwards Marshal, that found a box containing the legacy of Deborah Elks, and artlessly tried to take over the country via possession. Deeply mysogynistic. Was defeated and sentenced to unicorn, then death.
+
+- name: Iptimus
+  book: 20
+  tags: specter, deceased
+  blurb: A specter summoned by Marshal Caezar to possess Dryfe and kill Pafia. Effortlessly eliminated by Elze.
+
+- name: Galavellum
+  book: 20
+  tags: specter, deceased
+  blurb: A specter summoned by Marshal Caezar to possess king Luhm, weaken him and potentially kill him. Effortlessly eliminated by Leen.
+
+- name: Zebeta
+  book: 20
+  tags: specter, deceased
+  blurb: A specter contracted by Deborah Elks to guard her legacy and impart information on its usage to whoever found it. Passed away when the box containing the work of Elks was destroyed.
+
+- name: God of Glasses
+  book: 20
+  tags: divinity
+  blurb: A god that loves glasses.
+
+- name: Flower Spirit
+  book: 20
+  tags: spirit
+  blurb: A spirit that appears in the form of a elegant and graceful small girl wirh pale, curly reddish hair.
+
+- name: God of Forging
+  book: 20
+  tags: divinity
+  blurb: A god that helped create wedding rings for Touya and his wives.
+
+- name: God of Crafting
+  book: 20
+  tags: divinity
+  blurb: A god that helped create wedding rings for Touya and his wives.
+
+- name: God of Polishing
+  book: 20
+  tags: divinity
+  blurb: A god that helped create wedding rings for Touya and his wives.
+
+
+# Book 21
+
+
+
+- name: Goddess of Dance
+  alias: >
+    @24: Prima
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: God of Industry
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: God of Theater
+  alias: >
+    @24: Theatro
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: God of Puppetry
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: God of Wandering
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: Goddess of Flowers
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: Goddess of Gemstones
+  book: 21
+  tags: divinity
+  blurb: A god that attended Touya's wedding.
+
+- name: Mr. Asano
+  book: 21
+  tags: human
+  blurb: A friend of Touya's grandfather. He used to give Touya candy.
+
+- name: Mrs. Asano
+  book: 21
+  tags: human, earth
+  blurb: Mr. Asano's wife
+
+- name: Mochizuki Touichiro
+  book: 21
+  tags: human, earth
+  blurb: Touya's biological father, a manga artist.
+
+- name: Mochizuki Tsuzuri
+  book: 21
+  tags: human, earth
+  blurb: Touya's biological mother, a picture book artist.
+
+- name: Himura
+  book: 21
+  tags: human, earth
+  blurb: Touya's friend from middle school. The World God has been feeding him dreams of Touya's adventures, which he's been turning into a manga.
+
+- name: Mochizuki Fuyuka
+  book: 21
+  tags: human, earth
+  blurb: Touya's newborn little sister.
+
+- name: Shiro
+  book: 21
+  tags: divinity, earth
+  blurb: The servile god in charge of the NEET god. As repentance, became Fuyuka's guardian deity as her pet dog.
+
+
+
+
+
+# BOOK 22
+
+- name: Lilac
+  book: 22
+  tags: human, hannock, royalty
+  blurb: First princess of Hannock
+
+- name: Milneah
+  book: 22
+  tags: human, hannock, royalty
+  blurb: Second princess of Hannock
+
+- name: Imelda Tryus
+  book: 22
+  tags: human, reverseWorld, gardio
+  blurb: Daughter of a noble from Gardio. Blond hair, impressive bust. Agreed to be impersonated by a Gollem for Refreese's masquerade party.
+
+- name: Cordelia Terra Gandhilis
+  book: 22
+  tags: human, reverseWorld, gandhilis, royalty
+  blurb: Second princess of Gandhilis. Loves Lancelet Gardio.
+
+- name: Parullel
+  book: 22
+  tags: human, gandhilis
+  blurb: Cordelia's personal attendant. Her parents own the Seekers a Gollem engineering guild considered one of the five great gollemancers.
+
+- name: God of the Seas
+  book: 22
+  tags: divinity
+  blurb: A dark-skinned blond man wearing a roman toga. A couple with the Goddess of the Mountains.
+
+- name: Goddess of the Mountains
+  book: 22
+  tags: divinity
+  blurb: A fair-skinned woman with long black hair and hazel eyes wearing a white kimono. A couple with the God of the Seas.
+
+- name: Allistella
+  book: 22
+  tags: futureKids
+  blurb: Allis. Ende and Melle's daughter from the future. Flowing silvery hair, long scarf.
+
+- name: Mochizuki Elna
+  book: 22
+  tags: futureKids, royalty
+  blurb: Elze and Touya's daughter from the future. Unlike her mother, she doesn't like fighting.
+
+- name: Mochizuki Linne
+  book: 22
+  tags: futureKids, royalty
+  blurb: Linze and Touya's daughter from the future. Unlike her mother, she does like fighting.
+
+- name: Mochizuki Yakumo
+  book: 22
+  tags: futureKids, royalty
+  blurb: Yae and Touya's daughter from the future. Touya's eldest daughter. Loves training and fighting.
+
+- name: Mochizuki Freigard
+  book: 22
+  tags: futureKids, royalty
+  blurb: Frei. Hilde and Touya's daughter from the future. Has a strong sense of justice despite her casual and lax personality.
+
+- name: Mochizuki Quun
+  book: 22
+  tags: futureKids, royalty
+  blurb: Leen and Touya's daughter from the future. Extremely like her mother, but with a passion for engineering.
+
+- name: Parla
+  book: 22
+  tags: gollem, futureKids, royalty
+  blurb: A Gollem resembling Paula created by Quun.
+
+
+# Book 23
+
+- name: Mochizuki Yoshino
+  book: 23
+  tags: futureKids, royalty
+  blurb: Sakura and Touya's daughter from the future. Bright and gentle. Likes singing.
+
+- name: Mochizuki Arcia
+  book: 23
+  tags: futureKids, royalty
+  blurb: Lu and Touya's daughter from the future. Very attached to her father, desperately craving validation from her mother. Very into cooking.
+
+- name: Ervin Rheawind
+  book: 23
+  tags: reverseWorld, elf, rhea, royalty
+  blurb: The king of Rhea. An elf that's been around for millenia.
+
+- name: Grand Grun
+  book: 23
+  tags: reverseWorld, gollem, crownSeries
+  blurb: The Green Crown, a crown series Gollem. Can accelerate the growth of greenery at the cost of periods of forced hunger.
+
+
+
+# Book 24
+
+
+
+- name: Mario Phalanx
+  book: 24
+  tags: human, reverseWorld
+  blurb: Head of the Seekers. Ripple's husband, Parullel's father.
+
+
+- name: Ripple Phalanx
+  book: 24
+  tags: human, reverseWorld
+  blurb: Head of the Seekers. Mario's wife, Parullel's mother.
+
+- name: Galivan Zila Gandhilis
+  book: 24
+  tags: human, reverseWorld, gandhilis, royalty
+  blurb: The king of Gandhilis. A good man.
+
+- name: Mochizuki Kuon
+  book: 24
+  tags: futureKids, royalty
+  blurb: Yumina and Touya's son from the future. A trouble magnet, like his father.
+
+- name: Mochizuki Steph
+  book: 24
+  tags: futureKids, royalty
+  blurb: Sue and Touya's daughter from the future. Still hasn't shown up.
+
+- name: Tyles
+  book: 24
+  tags: human
+  blurb: An adventurer with a mohawk and a scary face.
+
+#- name: Felicia Regulus
+#  book: 24
+#  tags: human, regulus, royalty
+#  blurb: .......WHAT.
+
+- name: Sophia
+  book: 24
+  tags: lestia, royalty
+  blurb: Reihnard's wife and queen of Lestia.
+
+- name: Beatrice
+  book: 24
+  tags: lestia, royalty
+  blurb: Bea. Sophia and Reinhard's future daughter, as spoiled by Frei.
+
+- name: Roger Wilkes
+  book: 24
+  tags: reverseWorld
+  blurb: The Professor. One of the five great gollemancers.
 
 
