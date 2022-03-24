@@ -2828,10 +2828,11 @@
   tags: human
   blurb: An adventurer with a mohawk and a scary face.
 
-#- name: Felicia Regulus
-#  book: 24
-#  tags: human, regulus, royalty
-#  blurb: .......WHAT.
+- name: Felicia
+  book: 24
+  tags: human, regulus
+  blurb: A relative of Lu, a distant sister.
+  internal-notes: Confirmed with Steiner that she's not Sarah. "Felicia is just ANOTHER other sister who's more distant, Sarah's the crown princess iirc"
 
 - name: Sophia
   book: 24
