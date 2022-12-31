@@ -11,7 +11,7 @@
 # Notes on each:
 #   Both "name" and "blurb" are versionable strings (see below).
 #   "tags" is a list of tags, comma-separated.
-#     In the example, haracter has the tags "lorem", "dolor" and,
+#     In the example, the character has the tags "lorem", "dolor" and,
 #     from volume 5 onwards, also "ipsum".
 #   "book" is a simple number defining the first book the character appears in. It can
 #     be ommited and it defaults to 1.
